@@ -1,0 +1,68 @@
+#h4{
+    color: white;
+
+}
+
+#team_img{
+    width: 300px;
+    margin-left: 0%;
+}
+#team_img1{
+    width: 250px;
+    margin-left: 0%;
+    margin-top: 5%;
+   
+}
+
+
+    .x-scroll-disabled::-webkit-scrollbar {
+       display: none;
+    }
+   #btn_toggler{
+     width: 60px;
+     height: 5px;
+    background-color: #a25edc;
+   }
+
+@media screen and (max-width: 800px){
+    #team_img1{
+        margin-left: 0%;
+        width: 250px;
+    }
+    #phone{
+        margin: 0;
+        padding: auto;
+    }
+    .col{
+        flex-basis: 0;
+    }
+    .card-plain{
+        height: 400px;
+        width: 200px;
+    } 
+    #meet_the_team_h2{
+        text-align: left;
+        margin-left: 4%;
+        
+    }
+    #meet_the_team_h4{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    
+
+    }
+   .card-plain{
+       height: 500px;
+       width: 320px;
+       margin-right: 5%;
+   } 
+   @media screen and (min-width: 800px) {
+       #meet_the_team_h4{
+       text-align: center;}
+   }
+#meet_the_team_h4{
+     
+       color: white;
+       font-weight: normal;
+   }
