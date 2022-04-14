@@ -12,7 +12,7 @@ function Nav() {
           className="navbar navbar-expand-lg navbar-toggleable-sm fixed-top"
           id="nav"
         >
-          <a className="navbar-brand ml-lg-5 ml-xs-5 pl-xs-0" href=" ">
+          <a className="navbar-brand ml-lg-5 ml-xs-5 pl-xs-0 pl-4" href=" ">
             <img
               src={logo}
               alt=""
@@ -41,7 +41,7 @@ function Nav() {
                   className="button current"
                   style={{ fontWeight: "500" }}
                 >
-                  Home
+                  About Us
                 </a>
               </li>
 
@@ -63,7 +63,7 @@ function Nav() {
                   data-target="#eCommerce"
                   style={{ fontWeight: "500" }}
                 >
-                  eCommerce{" "}
+                  Contact Us{" "}
                 </a>
               </li>
               <li className="nav-item mx-4 my-3">
@@ -73,10 +73,10 @@ function Nav() {
                   className="button current"
                   style={{ fontWeight: "500" }}
                 >
-                  Team
+                  Lightpaper
                 </a>
               </li>
-              <li className="nav-item mx-4 my-3" id="ss">
+              {/* <li className="nav-item mx-4 my-3" id="ss">
                 <a
                   className="button1"
                   href="#contact"
@@ -85,7 +85,7 @@ function Nav() {
                 >
                   Contact Us
                 </a>
-              </li>
+              </li> */}
             </ul>
             {/* <ul className="navbar-nav mr-5 row" id="ul">
 

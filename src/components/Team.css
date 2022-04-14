@@ -2,6 +2,12 @@
   color: white;
 }
 
+.grid-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  overflow: auto;
+}
+
 #team_img {
   width: 300px;
   margin-left: 0%;
@@ -35,7 +41,7 @@
   }
   .card-plain {
     height: 400px;
-    width: 200px;
+    width: 180px;
   }
   #meet_the_team_h2 {
     text-align: left;
@@ -44,6 +50,15 @@
   #meet_the_team_h4 {
     text-align: left;
     font-size: 1.5rem;
+  }
+  .grid-content {
+    grid-template-columns: auto;
+    row-gap: 2rem;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .btn_toggler {
+    visibility: hidden;
   }
 }
 .card-plain {

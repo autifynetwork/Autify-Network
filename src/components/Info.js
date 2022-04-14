@@ -64,21 +64,21 @@ class Info extends React.Component {
                         backgroundClip: "text",
                       }}
                     >
-                      The Future of the Counterfeit Battle
+                      The Future of Global Retail
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
                       className="mr-3 p-linespace"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
-                        Counterfeit products have long threatened the global
-                        market with low-quality copies. These fake goods often
-                        effectively put the brand’s reputation and business at
-                        peril. In a number of cases, such goods can prove
-                        downright dangerous and we are committed to combating
-                        this criminal enterprise. Every industry can benefit
-                        from our innovative combination of image recognition and
-                        blockchain technology.
+                        Undoubtedly, e-commerce has globalized the supply
+                        distribution chain. People can order any product from
+                        anywhere at anytime. Likewise, manufacturers have to
+                        deal with high consumer demand. They are reducing their
+                        operating costs by using low-quality raw materials and
+                        following sub-standard manufacturing practices. This has
+                        resulted in counterfeit goods and intellectual property
+                        theft.
                       </span>
                     </h6>
                     <div className="my-5">
@@ -97,7 +97,112 @@ class Info extends React.Component {
                 <div className="child11 my-lg-3 py-lg-5">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
-                      <div className="col mx-auto my-auto">
+                      <div className="grid-container mx-auto">
+                        <div className="grid-item">
+                          <div className="row mb-5 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img1}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Poor Quality Product Market
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row mb-5 my-md-0 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img2}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Damaging to Brand Identity
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto my-xs-0 my-md-0"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img3}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Risk to Health & Safety
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row mb-2 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img4}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Costs Jobs and Revenue
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* <div className="col mx-auto my-auto">
                         <div className="row mb-lg-5 mx-auto" id="ok">
                           <div className="row">
                             <img
@@ -121,8 +226,7 @@ class Info extends React.Component {
                             </h4>
                           </div>
                         </div>
-                        <div
-                          className="row my-lg-3 my-xs-0 my-md-0 mx-auto"
+                        <div className="row my-lg-3 my-xs-0 my-md-0 mx-auto"
                           id="ok"
                         >
                           <div className="row">
@@ -147,8 +251,8 @@ class Info extends React.Component {
                             </h4>
                           </div>
                         </div>
-                      </div>
-                      <div className="col px-auto py-lg-4">
+                      </div> */}
+                      {/* <div className="col px-auto py-lg-4">
                         <div
                           className="row mb-lg-5 mx-auto my-xs-0 my-md-0"
                           id="ok"
@@ -198,7 +302,7 @@ class Info extends React.Component {
                             </h4>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -210,10 +314,121 @@ class Info extends React.Component {
           <div className="container mb-lg-1" id="solution">
             <div className="row flex-column-reverse flex-lg-row">
               <div className="col my-auto">
-                <div className="child11 mt-lg-1  mb-lg-5 pb-lg-5">
+                <div className="child11 mt-lg-1 pb-sm-0 mb-lg-5 pb-lg-5">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
-                      <div className="col mx-auto my-auto">
+                      <div className="grid-container mx-auto">
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img5}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Instant Proof of Origin and Authenticity
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mt-3 my-lg-3 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img6}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Independently Verifiable Digital Records
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img7}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Decentralized Tamper-proof System
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row  my-3 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img8}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Reliable Dependable Product Validation
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* <div className="col mx-auto my-auto">
                         <div className="row mb-lg-5 mx-auto" id="ok">
                           <div className="row">
                             <img
@@ -308,7 +523,7 @@ class Info extends React.Component {
                             </h4>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -412,7 +627,118 @@ class Info extends React.Component {
                 <div className="child11 my-lg-3 py-lg-3">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
-                      <div className="col mx-auto my-auto">
+                      <div className="grid-container mx-auto">
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mt-xs-0 mt-3 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img13}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Pre-listing Product Authentication
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row my-lg-3 mt-3 mb-5 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img14}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Immutable Brand Information
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-3 mt-xs-0"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img15}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Trustworthy Customer Experience
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row my-3 mb-5 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img16}
+                                alt="alt"
+                                className="mx-auto img-fluid"
+                                style={{ width: "120px" }}
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3">
+                                Reduced Returns & Exchanges
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* <div className="col mx-auto my-auto">
                         <div className="row mb-lg-5 mx-auto" id="ok">
                           <div className="row">
                             <img
@@ -513,7 +839,7 @@ class Info extends React.Component {
                             </h4>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -521,7 +847,7 @@ class Info extends React.Component {
             </div>
           </div>
         </div>
-        <div className="container mb-lg-5 pb-lg-5 pt-lg-0 mt-xs-5 pt-xs-5">
+        <div className="container mb-5 pb-5 mb-lg-4 pb-lg-1 pt-lg-0 mt-xs-5 pt-xs-5">
           <h5 style={{ color: "#a25edc", fontWeight: "normal" }}>
             Creating a digital identity
           </h5>
@@ -534,14 +860,14 @@ class Info extends React.Component {
             What We Offer
           </h1>
           <div
-            className="row mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
+            className="grid-content mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
             id="phone3"
           >
             <div
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
             >
-              <div className="row" id="offer_card">
+              <div className="row mx-auto" id="offer_card">
                 <img
                   src={img9}
                   alt="alt"
@@ -575,7 +901,7 @@ class Info extends React.Component {
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
             >
-              <div className="row" id="offer_card">
+              <div className="row mx-auto" id="offer_card">
                 <img
                   src={img10}
                   alt="alt"
@@ -595,7 +921,7 @@ class Info extends React.Component {
                 <h4 className="mx-auto my-3" style={{ textAlign: "center" }}>
                   Unique Authentication System
                 </h4>
-                <p style={{ textAlign: "center" }}>
+                <p style={{ textAlign: "center" }} className="my-lg-4">
                   {" "}
                   We make use of artificial intelligence, image recognition,
                   bio-inspired technology and blockchain novelty.{" "}
@@ -611,7 +937,7 @@ class Info extends React.Component {
                 <img
                   src={img11}
                   alt="alt"
-                  className="mx-auto img-fluid"
+                  className="img-fluid mx-auto"
                   style={{ width: "140px" }}
                   id="neu_img"
                 ></img>
@@ -637,7 +963,7 @@ class Info extends React.Component {
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
             >
-              <div className="row" id="offer_card">
+              <div className="row mx-auto" id="offer_card">
                 <img
                   src={img12}
                   alt="alt"
@@ -677,7 +1003,7 @@ class Info extends React.Component {
             Industries we're offering{" "}
           </h2>
           <div
-            className="row mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
+            className="grid-ind-content mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
             id="phone"
             ref={this.navRef}
           >
@@ -687,7 +1013,7 @@ class Info extends React.Component {
               id="offer_card"
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -705,7 +1031,7 @@ class Info extends React.Component {
               id="offer_card"
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -723,7 +1049,7 @@ class Info extends React.Component {
               id="offer_card"
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -740,7 +1066,7 @@ class Info extends React.Component {
               style={{ placeContent: "center", placeItems: "center" }}
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -757,7 +1083,7 @@ class Info extends React.Component {
               style={{ placeContent: "center", placeItems: "center" }}
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -769,13 +1095,12 @@ class Info extends React.Component {
                 ></img>
               </div>
             </div>
-
             <div
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
             >
               <div
-                className="row mx-1"
+                className="row mx-auto"
                 id="offer_card"
                 style={{ width: "245px" }}
               >
@@ -791,8 +1116,8 @@ class Info extends React.Component {
 
           <div
             className="mt-5 mx-auto"
-            id="#button_toggler"
-            style={{ paddingLeft: "33vw" }}
+            id="button_toggler"
+            style={{ paddingLeft: "30vw" }}
           >
             <button
               onClick={() => this.handleNav("left")}

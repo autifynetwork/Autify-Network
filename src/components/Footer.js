@@ -61,13 +61,8 @@ function Footer() {
 
   return (
     <>
-      {" "}
-      <section className="pb-lg-5 pt-lg-3">
-        <div
-          className="contact_form container my-5"
-          style={{ height: "" }}
-          id="contact"
-        >
+      <section className="mx-1">
+        <div className="contact_form container" id="contact">
           <div
             className="row"
             style={{ marginTop: "15%", marginBottom: "20%" }}
@@ -97,7 +92,7 @@ function Footer() {
               </div>
             </div>
             <div
-              className="col-md-12 col-lg-5 ml-lg-5 mt-5 mt-md-0 mr-md-0 mr-4 ml-4"
+              className="col-md-12 col-lg-5 ml-lg-5 mt-5 mt-md-0 mr-md-0 mr-2 ml-2"
               id="hh"
             >
               <div className="contact-form mx-auto">
@@ -185,7 +180,7 @@ function Footer() {
           <img src={logo} alt="alt-text" style={{ height: "100px" }}></img>
         </a>
 
-        <div className="row">
+        <div className="row text-center">
           <div className="col">
             <a href=" " className="button11 current">
               Privacy Policy

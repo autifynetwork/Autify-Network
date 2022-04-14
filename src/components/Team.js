@@ -32,7 +32,7 @@ class Team extends Component {
   render() {
     return (
       <section
-        className="my-5 slider teams"
+        className="my-5 mx-1 slider teams"
         style={{ backgroundColor: "transparent" }}
         id="team"
       >
@@ -52,11 +52,11 @@ class Team extends Component {
           </div>
 
           <div
-            className="row mx-lg-5 px-lg-6 flex-row flex-nowrap overflow-auto x-scroll-disabled card-group py-2 rounded"
+            className="grid-content mx-lg-5 px-lg-6 flex-row flex-nowrap x-scroll-disabled card-group py-2 rounded"
             id="phone1"
             ref={this.navRef}
           >
-            <div className="col mr-lg-2">
+            <div className="col mx-2">
               <div className="team-player">
                 <div className="card card-plain">
                   <div className="row">
@@ -206,6 +206,7 @@ class Team extends Component {
                 </div>
               </div>
             </div>
+
             <div className="col mx-2">
               <div className="team-player mr-auto ml-auto">
                 <div className="card card-plain">
@@ -254,6 +255,7 @@ class Team extends Component {
                 </div>
               </div>
             </div>
+
             <div className="col mx-2">
               <div className="team-player mx-auto">
                 <div className="card card-plain">
@@ -354,6 +356,7 @@ class Team extends Component {
                 </div>
               </div>
             </div>
+
             <div className="col mx-2">
               <div className="team-player mx-auto">
                 <div className="card card-plain">
@@ -405,6 +408,7 @@ class Team extends Component {
                 </div>
               </div>
             </div>
+
             <div className="col mx-2">
               <div className="team-player mr-auto ml-auto">
                 <div className="card card-plain">
@@ -454,7 +458,7 @@ class Team extends Component {
               </div>
             </div>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 btn_toggler">
             <button
               onClick={() => this.handleNav("left")}
               id="btn_toggler"
