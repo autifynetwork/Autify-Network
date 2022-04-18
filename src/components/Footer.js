@@ -101,7 +101,7 @@ function Footer() {
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
               <img alt="img" src={img4} className="auty_img" id="neu_img"></img>
-              <h2 id="auty_title">Record</h2>
+              <h2 id="auty_title">Reward</h2>
               <p id="auty_description">
                 Boards will use AUTY Tokens to process rewards to the end
                 consumers.
