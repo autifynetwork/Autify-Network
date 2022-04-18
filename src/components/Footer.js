@@ -69,7 +69,7 @@ function Footer() {
       <section className="container mx-auto">
         <div className="auty_token" style={{ color: "white" }}>
           <h1
-            className="my-3 mr-auto"
+            className="my-3 text-center"
             id="h22"
             style={{ marginTop: "2%", color: "white" }}
           >
@@ -77,14 +77,14 @@ function Footer() {
           </h1>
           <div className="auty_token_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12">
             <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img1} className="auty_img"></img>
+              <img alt="img" src={img1} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Fees</h2>
               <p id="auty_description">
                 Every on-chain transaction takes fees.
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img2} className="auty_img"></img>
+              <img alt="img" src={img2} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Governance</h2>
               <p id="auty_description">
                 AUTY Token is used for facilitating governance activities such
@@ -92,15 +92,15 @@ function Footer() {
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img3} className="auty_img"></img>
+              <img alt="img" src={img3} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Staking</h2>
               <p id="auty_description">
-                AUTY loken holders can stake AUTY tokens on dapp as well as
+                AUTY token holders can stake AUTY tokens on DApp as well as
                 network. By doing so, the staker can earn AUTY tokens.
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img4} className="auty_img"></img>
+              <img alt="img" src={img4} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Record</h2>
               <p id="auty_description">
                 Boards will use AUTY Tokens to process rewards to the end
@@ -109,8 +109,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="contact_form container" id="contact">
-          {/* <div
+        {/*<div className="contact_form container" id="contact">
+           <div
             className="row"
             style={{ marginTop: "15%", marginBottom: "20%" }}
           >
@@ -205,8 +205,8 @@ function Footer() {
                 </form>
               </div>
             </div>
-          </div> */}
-        </div>
+          </div> 
+        </div> */}
         {/* <div className="stay_in_touch container ml-auto mr-auto my-5 mx-xs-5" id="stay">
                     <div className="contact_description">
                         <h2 id="h2">Our Newsletter</h2>
@@ -222,7 +222,7 @@ function Footer() {
                     </div>
                 </div> */}
       </section>
-      <div className="footer_m">
+      <div className="footer_m" id="footer_m">
         <a href=" ">
           <img src={logo} alt="alt-text" style={{ height: "100px" }}></img>
         </a>
@@ -243,11 +243,11 @@ function Footer() {
               Contact Us
             </a>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <a href=" " className="button11">
               Sitemap
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="landing__foot__icons" style={{ display: "block" }}>
           <a

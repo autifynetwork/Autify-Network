@@ -1,16 +1,20 @@
 /* eslint-disable no-restricted-globals */
 import React, { Component } from "react";
 import "./Team.css";
-import team1 from "..//assets/Team Pictures web/Nabarun Chakraborty (1).png";
+import team1 from "..//assets/Team Pictures web/Team New/Nabarun Chakraborty1.png";
 import team2 from "..//assets/Team Pictures web/Joel Dsouza.png";
 import team3 from "..//assets/Team Pictures web/Sanjana.webp";
-import team4 from "..//assets/Team Pictures web/Reshmi Mitra.png";
-import team5 from "..//assets/Team Pictures web/Shreejata Neogi.webp";
+import team4 from "..//assets/Team Pictures web/Team New/Reshmi Mitra 1.png";
+import team5 from "..//assets/Team Pictures web/Team New/Shreejata Neogi1.png";
 import team6 from "..//assets/Team Pictures web/Ashwathy Ramachandran.webp";
 import team7 from "..//assets/Team Pictures web/Viiny.png";
 import team8 from "..//assets/Team Pictures web/Shrey Chopra.webp";
 import team9 from "..//assets/Team Pictures web/Preetish Biswal.webp";
-import team10 from "..//assets/Team Pictures web/wasim21.jpeg";
+import team10 from "..//assets/Team Pictures web/Team New/Wasim Bari.png";
+import team11 from "../assets/Team Pictures web/Team New/Kunal-Goyal.png";
+import team12 from "../assets/Team Pictures web/Team New/Rahul Manoj 1.png";
+import team13 from "../assets/Team Pictures web/Team New/Kundan Mishra 1.png";
+import team14 from "../assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
 
 class Team extends Component {
   constructor(props) {
@@ -50,7 +54,7 @@ class Team extends Component {
               {" "}
               We are a team of entrepreneurs, blockchain engineers,
               cryptographers, operational and marketing experts eager to build
-              real-world solutions
+              real-world solutions.
             </h4>
           </div>
 
@@ -119,7 +123,7 @@ class Team extends Component {
                   <div className="row">
                     <div className="col">
                       <img
-                        src={team3}
+                        src={team10}
                         alt="ThumbnailImage"
                         className="img-raised rounded-circle mx-auto"
                         id="team_img1"
@@ -218,7 +222,7 @@ class Team extends Component {
                   <div className="row">
                     <div className="col">
                       <img
-                        src={team6}
+                        src={team11}
                         alt="ThumbnailImage"
                         className="img-raised rounded-circle mx-auto"
                         id="team_img1"
@@ -267,9 +271,9 @@ class Team extends Component {
                   <div className="row">
                     <div className="col">
                       <img
-                        src={team10}
+                        src={team4}
                         alt="ThumbnailImage"
-                        className="img-raised  rounded-circle mx-auto"
+                        className="img-raised rounded-circle mx-auto"
                         id="team_img1"
                       />
                     </div>
@@ -319,7 +323,7 @@ class Team extends Component {
                   <div className="row">
                     <div className="col mx-auto">
                       <img
-                        src={team7}
+                        src={team12}
                         alt="ThumbnailImage"
                         className="img-raised  rounded-circle mx-auto"
                         id="team_img1"
@@ -368,7 +372,7 @@ class Team extends Component {
                   <div className="row">
                     <div className="col">
                       <img
-                        src={team8}
+                        src={team13}
                         alt="ThumbnailImage"
                         className="img-raised  rounded-circle mx-auto"
                         id="team_img1"
@@ -469,7 +473,7 @@ class Team extends Component {
                   <div className="row">
                     <div className="col">
                       <img
-                        src={team9}
+                        src={team14}
                         alt="ThumbnailImage"
                         className="img-raised  rounded-circle mx-auto"
                         id="team_img1"

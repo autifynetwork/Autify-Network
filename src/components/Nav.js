@@ -37,8 +37,8 @@ function Nav() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active mx-4 my-3">
                 <a
-                  href="#home"
-                  data-target="#home"
+                  href="#team"
+                  data-target="#team"
                   className="button current"
                   style={{ fontWeight: "500" }}
                 >
@@ -60,8 +60,8 @@ function Nav() {
               <li className="nav-item mx-4 my-3 current">
                 <a
                   className="button"
-                  href="#eCommerce"
-                  data-target="#eCommerce"
+                  href="#footer_m"
+                  data-target="#footer_m"
                   style={{ fontWeight: "500" }}
                 >
                   Contact Us{" "}
@@ -181,8 +181,8 @@ function Nav() {
                 >
                   At Autify Network, we are developing a blockchain trust
                   protocol for the global supply chain and retail industry. It
-                  facilitates efficient transfer of information in these times
-                  of Web 3.0. <br className="break-phone" />
+                  facilitates efficient transfer of information for Web 3.0.{" "}
+                  <br className="break-phone" />
                 </h5>
               </div>{" "}
             </div>

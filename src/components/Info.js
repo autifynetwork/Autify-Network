@@ -120,7 +120,7 @@ class Info extends React.Component {
                         href="#contact"
                         data-target="#contact"
                       >
-                        Get in Touch
+                        Contact Us
                       </a>
                     </div>
                   </div>
@@ -558,7 +558,7 @@ class Info extends React.Component {
                   <div className="my-5 pt-xs-5">
                     <h5 style={{ color: "white", fontWeight: "lighter" }}>
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
-                        Autify Authenticate Block
+                        Autify Authentication Block
                       </span>
                     </h5>
                     <h1
@@ -585,7 +585,7 @@ class Info extends React.Component {
                         data-target="#contact"
                         className="button_info my-3"
                       >
-                        Get in Touch
+                        Contact Us
                       </a>
                     </div>
                   </div>
@@ -635,7 +635,7 @@ class Info extends React.Component {
                         href="#contact"
                         data-target="#contact"
                       >
-                        Get in Touch
+                        Contact Us
                       </a>
                     </div>
                   </div>
@@ -890,7 +890,7 @@ class Info extends React.Component {
                       id="h22"
                       style={{ marginTop: "2%", color: "white" }}
                     >
-                      Unleashing the power of decentralised finance
+                      Unleashing the power of Decentralised Finance
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
@@ -911,7 +911,7 @@ class Info extends React.Component {
                         data-target="#contact"
                         className="button_info my-3"
                       >
-                        Get in Touch
+                        Contact Us
                       </a>
                     </div>
                   </div>
@@ -964,7 +964,7 @@ class Info extends React.Component {
                         href="#contact"
                         data-target="#contact"
                       >
-                        Get in Touch
+                        Contact Us
                       </a>
                     </div>
                   </div>

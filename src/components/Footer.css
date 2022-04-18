@@ -9,7 +9,7 @@ a:active {
 
 .auty_item {
   border-radius: 20px;
-  background-color: #462571;
+  background-color: #12173a;
   height: 300px;
   width: 250px;
 }
@@ -95,10 +95,18 @@ a:active {
   border-radius: 4px;
   width: 300px;
 }
+#neu_img:hover {
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+  display: inline block;
+  position: relative;
+}
 .footer_m {
   padding: 2vh 7vw;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   -webkit-align-items: center;
   align-items: center;
   margin-top: 0vh;
