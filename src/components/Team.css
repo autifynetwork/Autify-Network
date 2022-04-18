@@ -4,8 +4,9 @@
 
 .grid-content {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
   overflow: auto;
+  width: 100%;
 }
 
 #team_img {
@@ -13,7 +14,7 @@
   margin-left: 0%;
 }
 #team_img1 {
-  width: 250px;
+  width: 200px;
   margin-left: 0%;
   margin-top: 5%;
 }
@@ -30,7 +31,7 @@
 @media screen and (max-width: 800px) {
   #team_img1 {
     margin-left: 0%;
-    width: 250px;
+    width: 80px;
   }
   #phone {
     margin: 0;
@@ -40,8 +41,8 @@
     flex-basis: 0;
   }
   .card-plain {
-    height: 400px;
-    width: 180px;
+    height: 300px;
+    width: 160px;
   }
   #meet_the_team_h2 {
     text-align: left;
@@ -52,23 +53,24 @@
     font-size: 1.5rem;
   }
   .grid-content {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     row-gap: 2rem;
     overflow: hidden;
-    justify-content: center;
+    justify-content: space-between;
   }
   .btn_toggler {
     visibility: hidden;
   }
 }
-.card-plain {
-  height: 500px;
-  width: 320px;
-  margin-right: 5%;
-}
+
 @media screen and (min-width: 800px) {
   #meet_the_team_h4 {
     text-align: center;
+  }
+  .card-plain {
+    height: 420px;
+    width: 280px;
+    margin-right: 5%;
   }
 }
 #meet_the_team_h4 {

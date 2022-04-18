@@ -32,14 +32,17 @@ class Team extends Component {
   render() {
     return (
       <section
-        className="my-5 mx-1 slider teams"
+        className="mb-5 mx-1 slider teams"
         style={{ backgroundColor: "transparent" }}
         id="team"
       >
-        <div className="section text-center mx-lg-5 px-lg-5 mb-lg-5 pb-lg-5">
+        <div className="section text-center mx-lg-5 px-lg-5 px-2 mb-lg-5 pb-lg-5">
           <h2 className="title mt-5 mb-3 pt-5 mb-3" id="meet_the_team_h2">
             {" "}
-            <strong style={{ color: "white" }}> MEET THE TEAM</strong>
+            <strong style={{ color: "white" }}>
+              {" "}
+              The Team behind Autify Network
+            </strong>
           </h2>
           <div className="mx-lg-5 px-lg-5 mx-3">
             {" "}
@@ -56,7 +59,7 @@ class Team extends Component {
             id="phone1"
             ref={this.navRef}
           >
-            <div className="col mx-2">
+            <div className="col ">
               <div className="team-player">
                 <div className="card card-plain">
                   <div className="row">
@@ -69,7 +72,8 @@ class Team extends Component {
                       />
                     </div>
                   </div>
-                  <h4 className="card-title my-3" id="h4">
+                  <h4 className="card-title mt-4" id="h4">
+                    Nabarun Chakraborty
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
@@ -84,7 +88,7 @@ class Team extends Component {
                       style={{ display: "block" }}
                     >
                       <a
-                        href="https://twitter.com/autifynetwork"
+                        href="https://twitter.com/Its_Nabarun"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -94,7 +98,7 @@ class Team extends Component {
                         ></img>
                       </a>
                       <a
-                        href="https://www.linkedin.com/company/autify-network/"
+                        href="https://www.linkedin.com/in/nabarunchakrabortty/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -109,7 +113,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className="col mx-2">
+            <div className="col ">
               <div className="team-player mr-auto ml-auto">
                 <div className="card card-plain">
                   <div className="row">
@@ -123,13 +127,13 @@ class Team extends Component {
                     </div>
                   </div>
                   <h4 className="card-title my-3 pt-2" id="h4">
-                    Sanjana Sudheer
+                    Wasim Bari
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
                   <div className="card-body">
                     <p className="card-description" style={{ color: "white" }}>
-                      Content Specialist
+                      Blockchain Developer
                     </p>
                   </div>
                   <div className="card-footer justify-content-center">
@@ -141,10 +145,11 @@ class Team extends Component {
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
                         alt="twitter"
                       ></img>
+
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/sanjana-sudheer-35b179118/"
+                        href="https://www.linkedin.com/in/wasim-bari-it/"
                       >
                         {" "}
                         <img
@@ -158,7 +163,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className="col mx-2">
+            <div className="col ">
               <div className="team-player mx-auto">
                 <div className="card card-plain">
                   <div className="row">
@@ -178,7 +183,7 @@ class Team extends Component {
                   </h4>
                   <div className="card-body">
                     <p className="card-description" style={{ color: "white" }}>
-                      Graphic Design Lead
+                      Graphics & video lead
                     </p>
                   </div>
                   <div className="card-footer justify-content-center">
@@ -207,7 +212,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className="col mx-2">
+            <div className="col ">
               <div className="team-player mr-auto ml-auto">
                 <div className="card card-plain">
                   <div className="row">
@@ -221,13 +226,13 @@ class Team extends Component {
                     </div>
                   </div>
                   <h4 className="card-title my-3 text-truncate" id="h4">
-                    Ashwathy Ramachandran
+                    Kunal goyal
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
                   <div className="card-body">
                     <p className="card-description" style={{ color: "white" }}>
-                      Graphic Design Associate
+                      Blockchain Developer
                     </p>
                   </div>
                   <div className="card-footer justify-content-center">
@@ -242,7 +247,7 @@ class Team extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/ashwathy-r-801098138"
+                        href="https://www.linkedin.com/in/kunalgoyal9/"
                       >
                         {" "}
                         <img
@@ -256,7 +261,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className="col mx-2">
+            <div className="col ">
               <div className="team-player mx-auto">
                 <div className="card card-plain">
                   <div className="row">
@@ -269,8 +274,109 @@ class Team extends Component {
                       />
                     </div>
                   </div>
-                  <h4 className="card-title my-3 pt-2" id="h4">
-                    Wasim Bari
+                  <h4 className="card-title my-3 pt-1" id="h4">
+                    Reshmi Mitra
+                    <br />
+                    <small className="card-description text-muted"></small>
+                  </h4>
+                  <div className="card-body">
+                    <p
+                      className="card-description text-truncate"
+                      style={{ color: "white" }}
+                    >
+                      PR Consultant
+                    </p>
+                  </div>
+                  <div className="card-footer justify-content-center">
+                    <div
+                      className="landing__foot__icons"
+                      style={{ display: "block" }}
+                    >
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                        alt="twitter"
+                      ></img>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/in/reshmi-mitra/"
+                      >
+                        {" "}
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          alt="linkedin"
+                        ></img>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col ">
+              <div className="team-player mx-auto">
+                <div className="card card-plain">
+                  <div className="row">
+                    <div className="col mx-auto">
+                      <img
+                        src={team7}
+                        alt="ThumbnailImage"
+                        className="img-raised  rounded-circle mx-auto"
+                        id="team_img1"
+                      />
+                    </div>
+                  </div>
+                  <h4 className="card-title my-3" id="h4">
+                    Rahul Manoj
+                    <br />
+                    <small className="card-description text-muted"></small>
+                  </h4>
+                  <div className="card-body">
+                    <p className="card-description" style={{ color: "white" }}>
+                      Content Lead
+                    </p>
+                  </div>
+                  <div className="card-footer justify-content-center">
+                    <div
+                      className="landing__foot__icons"
+                      style={{ display: "block" }}
+                    >
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                        alt="twitter"
+                      ></img>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/in/rahul-m-55b309174/"
+                      >
+                        {" "}
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          alt="linkedin"
+                        ></img>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col ">
+              <div className="team-player mx-auto">
+                <div className="card card-plain">
+                  <div className="row">
+                    <div className="col">
+                      <img
+                        src={team8}
+                        alt="ThumbnailImage"
+                        className="img-raised  rounded-circle mx-auto"
+                        id="team_img1"
+                      />
+                    </div>
+                  </div>
+                  <h4 className="card-title my-3" id="h4">
+                    Kundan Mishra
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
@@ -294,7 +400,7 @@ class Team extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/wasim-bari-it/"
+                        href="https://www.linkedin.com/in/rodrigues49/)"
                       >
                         {" "}
                         <img
@@ -308,108 +414,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className="col mx-2">
-              <div className="team-player mx-auto">
-                <div className="card card-plain">
-                  <div className="row">
-                    <div className="col mx-auto">
-                      <img
-                        src={team7}
-                        alt="ThumbnailImage"
-                        className="img-raised  rounded-circle mx-auto"
-                        id="team_img1"
-                      />
-                    </div>
-                  </div>
-                  <h4 className="card-title my-4" id="h4">
-                    Vinny Varghese
-                    <br />
-                    <small className="card-description text-muted"></small>
-                  </h4>
-                  <div className="card-body">
-                    <p className="card-description" style={{ color: "white" }}>
-                      Content Writer
-                    </p>
-                  </div>
-                  <div className="card-footer justify-content-center">
-                    <div
-                      className="landing__foot__icons"
-                      style={{ display: "block" }}
-                    >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                        alt="twitter"
-                      ></img>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.linkedin.com/in/vinny-varghese-94b876155"
-                      >
-                        {" "}
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
-                          alt="linkedin"
-                        ></img>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col mx-2">
-              <div className="team-player mx-auto">
-                <div className="card card-plain">
-                  <div className="row">
-                    <div className="col">
-                      <img
-                        src={team8}
-                        alt="ThumbnailImage"
-                        className="img-raised  rounded-circle mx-auto"
-                        id="team_img1"
-                      />
-                    </div>
-                  </div>
-                  <h4 className="card-title my-3" id="h4">
-                    Shrey Chopra
-                    <br />
-                    <small className="card-description text-muted"></small>
-                  </h4>
-                  <div className="card-body">
-                    <p
-                      className="card-description text-truncate"
-                      style={{ color: "white" }}
-                    >
-                      Community Management Associate
-                    </p>
-                  </div>
-                  <div className="card-footer justify-content-center">
-                    <div
-                      className="landing__foot__icons"
-                      style={{ display: "block" }}
-                    >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                        alt="twitter"
-                      ></img>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.linkedin.com/in/shreychopra17"
-                      >
-                        {" "}
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
-                          alt="linkedin"
-                        ></img>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col mx-2">
+            {/* <div className="col ">
               <div className="team-player mr-auto ml-auto">
                 <div className="card card-plain">
                   <div className="row">
@@ -423,13 +428,13 @@ class Team extends Component {
                     </div>
                   </div>
                   <h4 className="card-title my-3" id="h4">
-                    Preetish Biswal
+                    Clevin Rodrigues
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
                   <div className="card-body">
                     <p className="card-description" style={{ color: "white" }}>
-                      Frontend Developer
+                      Social Media Manager
                     </p>
                   </div>
                   <div className="card-footer justify-content-center">
@@ -444,7 +449,56 @@ class Team extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/preetishbiswal777/"
+                        href="(https://www.linkedin.com/in/rodrigues49/"
+                      >
+                        {" "}
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          alt="linkedin"
+                        ></img>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> */}
+
+            <div className="col ">
+              <div className="team-player mr-auto ml-auto">
+                <div className="card card-plain">
+                  <div className="row">
+                    <div className="col">
+                      <img
+                        src={team9}
+                        alt="ThumbnailImage"
+                        className="img-raised  rounded-circle mx-auto"
+                        id="team_img1"
+                      />
+                    </div>
+                  </div>
+                  <h4 className="card-title my-3" id="h4">
+                    Keshavavarmaa S
+                    <br />
+                    <small className="card-description text-muted"></small>
+                  </h4>
+                  <div className="card-body">
+                    <p className="card-description" style={{ color: "white" }}>
+                      Full-Stack Developer
+                    </p>
+                  </div>
+                  <div className="card-footer justify-content-center">
+                    <div
+                      className="landing__foot__icons"
+                      style={{ display: "block" }}
+                    >
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                        alt="twitter"
+                      ></img>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="(https://www.linkedin.com/in/keshava-varmaa-896a441b0/"
                       >
                         {" "}
                         <img

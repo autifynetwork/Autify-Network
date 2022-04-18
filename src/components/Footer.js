@@ -5,6 +5,11 @@ import { db } from "../firebase";
 import { useState } from "react";
 import tele from "../assets/pngegg.png";
 
+import img1 from "../assets/Content Pics/AUTY Token/1.8.png";
+import img2 from "../assets/Content Pics/AUTY Token/1.9.png";
+import img3 from "../assets/Content Pics/AUTY Token/1.91.png";
+import img4 from "../assets/Content Pics/AUTY Token/1.812.png";
+
 function Footer() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -61,9 +66,51 @@ function Footer() {
 
   return (
     <>
-      <section className="mx-1">
+      <section className="container mx-auto">
+        <div className="auty_token" style={{ color: "white" }}>
+          <h1
+            className="my-3 mr-auto"
+            id="h22"
+            style={{ marginTop: "2%", color: "white" }}
+          >
+            AUTY Token
+          </h1>
+          <div className="auty_token_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12">
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img1} className="auty_img"></img>
+              <h2 id="auty_title">Fees</h2>
+              <p id="auty_description">
+                Every on-chain transaction takes fees.
+              </p>
+            </div>
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img2} className="auty_img"></img>
+              <h2 id="auty_title">Governance</h2>
+              <p id="auty_description">
+                AUTY Token is used for facilitating governance activities such
+                as Voting.
+              </p>
+            </div>
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img3} className="auty_img"></img>
+              <h2 id="auty_title">Staking</h2>
+              <p id="auty_description">
+                AUTY loken holders can stake AUTY tokens on dapp as well as
+                network. By doing so, the staker can earn AUTY tokens.
+              </p>
+            </div>
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img4} className="auty_img"></img>
+              <h2 id="auty_title">Record</h2>
+              <p id="auty_description">
+                Boards will use AUTY Tokens to process rewards to the end
+                consumers.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="contact_form container" id="contact">
-          <div
+          {/* <div
             className="row"
             style={{ marginTop: "15%", marginBottom: "20%" }}
           >
@@ -158,7 +205,7 @@ function Footer() {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <div className="stay_in_touch container ml-auto mr-auto my-5 mx-xs-5" id="stay">
                     <div className="contact_description">
@@ -189,6 +236,11 @@ function Footer() {
           <div className="col" style={{ placeItems: "center" }}>
             <a href=" " className="button11 current">
               Terms and Conditions
+            </a>
+          </div>
+          <div className="col" style={{ placeItems: "center" }}>
+            <a href=" " className="button11 current">
+              Contact Us
             </a>
           </div>
           <div className="col">
@@ -255,7 +307,7 @@ function Footer() {
           style={{ placeItems: "center", marginRight: "40%" }}
         >
           <a href="#0" className="button11 current">
-            <i className="mdi mdi-copyright"></i>2021 Autify Network. All Rights
+            <i className="mdi mdi-copyright"></i>2022 Autify Network. All Rights
             Reserved.
           </a>
         </div>

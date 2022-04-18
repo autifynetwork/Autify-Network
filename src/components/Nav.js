@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/white logo horizontal.png";
+import logo1 from "../assets/Content Pics/Logo/Logo1.png";
 import "./Nav.css";
 import hero from "..//assets/Web Graphic1.webp";
 import tele from "../assets/pngegg.png";
@@ -12,7 +13,7 @@ function Nav() {
           className="navbar navbar-expand-lg navbar-toggleable-sm fixed-top"
           id="nav"
         >
-          <a className="navbar-brand ml-lg-5 ml-xs-5 pl-xs-0 pl-4" href=" ">
+          <a className="navbar-brand ml-lg-5 pl-xs-0 pl-lg-4" href=" ">
             <img
               src={logo}
               alt=""
@@ -76,6 +77,67 @@ function Nav() {
                   Lightpaper
                 </a>
               </li>
+              <li className="nav-item mx-md-2 mx-3 my-3">
+                <a
+                  href="https://twitter.com/autifynetwork"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2"
+                >
+                  <img
+                    style={{ width: "20px" }}
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                    alt="twitter"
+                    id="icons"
+                  ></img>
+                </a>
+              </li>
+              <li className="nav-item mx-md-2 mx-3 my-3">
+                <a
+                  href="https://www.linkedin.com/company/autify-network/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2"
+                >
+                  <img
+                    style={{ width: "20px" }}
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                    alt="linkedin"
+                    id="icons"
+                  ></img>
+                </a>
+              </li>
+              <li className="nav-item mx-md-2 mx-3 my-3">
+                <a
+                  href="https://www.facebook.com/autifynetwork"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2"
+                >
+                  <img
+                    style={{ width: "20px" }}
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEESURBVHgB7ZXNEYJADIWzCwVYAiXI3x0r0RLswLUStRM8M4Ad2AIF8OOL4zpclIhw4zsACy/JvOwyUfQiy7LEcZxD13VrLFc0EqVU2rbtOYqiy3PNlzzPDW4HmpZjGIZGIfkOixPNAJxsNCxtaSa45S56ngj1FbQGQRff9yv7Eh3oPgXwfrokBOK93bgfWGmpckTyJ2IHfYqiuMORJ9GKHfSRJmfUt01icJbVt+9D8aMcWMqy9IY0fxWo69ob0gy2yNJvlTSG+cvBUmAp8C5Q0Yy4GDg3yUz45exbkDfVTdMcaT7OOo7jFA+GpsfwDOn//jtY2qJlCY2Hx+pNa22CILjyiwczlG3mydx+agAAAABJRU5ErkJggg=="
+                    alt="facebook"
+                    is="icons"
+                  ></img>
+                </a>
+              </li>
+              <li className="nav-item mx-md-2 mx-3 my-3">
+                <a
+                  href="https://t.me/autifynetwork"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mx-2 "
+                >
+                  <img
+                    src={tele}
+                    style={{ width: "24px" }}
+                    alt="telegram"
+                    className="img-fluid"
+                    id="icons"
+                  ></img>
+                </a>
+              </li>
               {/* <li className="nav-item mx-4 my-3" id="ss">
                 <a
                   className="button1"
@@ -109,7 +171,7 @@ function Nav() {
                   color: "transparent",
                 }}
               >
-                The Key to Countering the Counterfeit Problem
+                Making Commerce more Transparent through the Power of Blockchain
               </h1>
               <div className="my-md-5 my-lg-0 pt-3">
                 <h5
@@ -117,11 +179,10 @@ function Nav() {
                   style={{ color: "white", marginTop: "1%", fontWeight: "400" }}
                   id="h41"
                 >
-                  At Autify, we believe in harnessing the power of blockchain
-                  technology to solve real-world problems. We are building a
-                  blockchain trust protocol to combat the $1.8 trillion big
-                  global counterfeit trade predicament.{" "}
-                  <br className="break-phone" />
+                  At Autify Network, we are developing a blockchain trust
+                  protocol for the global supply chain and retail industry. It
+                  facilitates efficient transfer of information in these times
+                  of Web 3.0. <br className="break-phone" />
                 </h5>
               </div>{" "}
             </div>
@@ -136,75 +197,6 @@ function Nav() {
                   Join Us on Our Mission
                 </a>
               </button>
-            </div>
-            <div
-              className="landing__foot__icons mt-lg-5 my-xs-3"
-              id="problem_1"
-            >
-              <a
-                href="https://twitter.com/autifynetwork"
-                target="_blank"
-                rel="noreferrer"
-                className="mx-1"
-              >
-                <img
-                  style={{ width: "24px" }}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                  alt="twitter"
-                  id="icons"
-                ></img>
-              </a>
-              <a
-                href="https://www.linkedin.com/company/autify-network/"
-                target="_blank"
-                rel="noreferrer"
-                className="mx-1"
-              >
-                <img
-                  style={{ width: "24px" }}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
-                  alt="linkedin"
-                  id="icons"
-                ></img>
-              </a>
-              <a
-                href="https://www.facebook.com/autifynetwork"
-                target="_blank"
-                rel="noreferrer"
-                className="mx-1"
-              >
-                <img
-                  style={{ width: "24px" }}
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEESURBVHgB7ZXNEYJADIWzCwVYAiXI3x0r0RLswLUStRM8M4Ad2AIF8OOL4zpclIhw4zsACy/JvOwyUfQiy7LEcZxD13VrLFc0EqVU2rbtOYqiy3PNlzzPDW4HmpZjGIZGIfkOixPNAJxsNCxtaSa45S56ngj1FbQGQRff9yv7Eh3oPgXwfrokBOK93bgfWGmpckTyJ2IHfYqiuMORJ9GKHfSRJmfUt01icJbVt+9D8aMcWMqy9IY0fxWo69ob0gy2yNJvlTSG+cvBUmAp8C5Q0Yy4GDg3yUz45exbkDfVTdMcaT7OOo7jFA+GpsfwDOn//jtY2qJlCY2Hx+pNa22CILjyiwczlG3mydx+agAAAABJRU5ErkJggg=="
-                  alt="facebook"
-                  is="icons"
-                ></img>
-              </a>
-              <a
-                href="https://t.me/autifynetwork"
-                target="_blank"
-                rel="noreferrer"
-                className="mx-1 "
-              >
-                <img
-                  src={tele}
-                  style={{ width: "28px" }}
-                  alt="telegram"
-                  className="img-fluid"
-                  id="icons"
-                ></img>
-              </a>
-              <h5
-                style={{
-                  color: "white",
-                  fontWeight: "lighter",
-                  alignSelf: "center",
-                }}
-                className="mx-1 py-1"
-                id="follow"
-              >
-                - Follow us
-              </h5>
             </div>
           </div>
           <div className="child1" id="child">

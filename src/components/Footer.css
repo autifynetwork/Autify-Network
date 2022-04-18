@@ -6,6 +6,17 @@ a:active {
   font-weight: normal;
   font-size: 17px;
 }
+
+.auty_item {
+  border-radius: 20px;
+  background-color: #462571;
+  height: 300px;
+  width: 250px;
+}
+#h22 {
+  font-size: 3.2rem;
+  font-weight: 1000;
+}
 .stay_in_touch {
   padding: 2.9rem 7vw;
   text-align: center;
@@ -47,6 +58,7 @@ a:active {
   display: block;
   margin: auto;
 }
+
 #p1 {
   color: white;
 
@@ -86,7 +98,7 @@ a:active {
 .footer_m {
   padding: 2vh 7vw;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   -webkit-align-items: center;
   align-items: center;
   margin-top: 0vh;
@@ -117,7 +129,45 @@ a:active {
 #stay {
   background-color: transparent;
 }
+.auty_img {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.auty_token_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+@media screen and (max-width: 1200px) {
+  .auty_token_grid {
+    grid-template-columns: auto auto;
+  }
+  .auty_item {
+    border-radius: 20px;
+    background-color: #462571;
+    height: 320px;
+    width: 300px;
+  }
+}
+
 @media screen and (max-width: 800px) {
+  .auty_item {
+    border-radius: 20px;
+    background-color: #462571;
+    height: 205px;
+    width: 160px;
+  }
+  .auty_img {
+    width: 130px;
+    margin-top: 5px;
+  }
+  #auty_title {
+    font-size: 1.3rem;
+  }
+  #auty_description {
+    font-size: 0.7rem;
+  }
   .landing__foot__icons {
     display: block;
   }
@@ -139,5 +189,10 @@ a:active {
   }
   .input {
     width: 200px;
+  }
+  #h22 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
   }
 }

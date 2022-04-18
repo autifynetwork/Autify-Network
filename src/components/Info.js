@@ -25,6 +25,39 @@ import img21 from "..//assets/Agriculture.png";
 import img23 from "..//assets/Electrical Equipments1.png";
 import img24 from "..//assets/Perfumes and Cosmetics.png";
 
+import img25 from "../assets/Content Pics/The Future of Global Retail/Affects Brand Reputation.png";
+import img26 from "../assets/Content Pics/The Future of Global Retail/Can’t ascertain authenticity.png";
+import img27 from "../assets/Content Pics/The Future of Global Retail/No transparency in supply chain.png";
+import img28 from "../assets/Content Pics/The Future of Global Retail/Risk to Health _ Safety.png";
+
+import img29 from "../assets/Content Pics/Up your game with uncontested truth/Consumer interaction.png";
+import img30 from "../assets/Content Pics/Up your game with uncontested truth/Product authenticity.png";
+import img31 from "../assets/Content Pics/Up your game with uncontested truth/Product birth certificate.png";
+import img32 from "../assets/Content Pics/Up your game with uncontested truth/Real-time item-level monitoring.png";
+
+import img33 from "../assets/Content Pics/Smart contract based parametric insurance/Extensive data analysis.png";
+import img34 from "../assets/Content Pics/Smart contract based parametric insurance/Automated payment of claims.png";
+import img35 from "../assets/Content Pics/Smart contract based parametric insurance/Reduced chance of disputes1.png";
+import img36 from "../assets/Content Pics/Smart contract based parametric insurance/Comprehensive risk assessment.png";
+
+import img37 from "../assets/Content Pics/Unleashing the power of decentralised finance/Access to micro loans.png";
+import img38 from "../assets/Content Pics/Unleashing the power of decentralised finance/Community Liquidity Pooling.png";
+import img39 from "../assets/Content Pics/Unleashing the power of decentralised finance/Operates in a permissionless manner1.png";
+import img40 from "../assets/Content Pics/Unleashing the power of decentralised finance/Partner Network Lending.png";
+
+import img41 from "../assets/Content Pics/Ensuring a secure E-commerce experience/Enhanced transparency.png";
+import img42 from "../assets/Content Pics/Ensuring a secure E-commerce experience/Proof of ownership and authenticity.png";
+import img43 from "../assets/Content Pics/Ensuring a secure E-commerce experience/Trustworthy customer experience.png";
+import img44 from "../assets/Content Pics/Ensuring a secure E-commerce experience/Reduced Returns _ Exchanges.png";
+
+import img45 from "../assets/Content Pics/Industries we are targeting/Lifestyle _ Apparel.png";
+import img46 from "../assets/Content Pics/Industries we are targeting/Luxury _ Jewellery.png";
+import img47 from "../assets/Content Pics/Industries we are targeting/Perfume and Cosmetics.png";
+import img48 from "../assets/Content Pics/Industries we are targeting/Electrical Equipment.png";
+import img49 from "../assets/Content Pics/Industries we are targeting/Wine and Spirits.png";
+import img50 from "../assets/Content Pics/Industries we are targeting/Automotive.png";
+import img51 from "../assets/Content Pics/Industries we are targeting/Pharma and Healthcare.png";
+
 class Info extends React.Component {
   constructor(props) {
     super(props);
@@ -93,8 +126,8 @@ class Info extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col">
-                <div className="child11 my-lg-3 py-lg-5">
+              <div className="col my-auto">
+                <div className="child11 mt-lg-3 my-lg-0 py-lg-2">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
                       <div className="grid-container mx-auto">
@@ -102,23 +135,22 @@ class Info extends React.Component {
                           <div className="row mb-5 mx-auto" id="ok">
                             <div className="row">
                               <img
-                                src={img1}
+                                src={img25}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
                             <div
-                              className="row mx-3"
+                              className="row mx-3 "
                               style={{
                                 color: "white",
                                 alignSelf: "center",
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Poor Quality Product Market
+                              <h4 className="mx-auto my-3 card-font">
+                                Affects Brand Reputation
                               </h4>
                             </div>
                           </div>
@@ -127,10 +159,9 @@ class Info extends React.Component {
                           <div className="row mb-5 my-md-0 mx-auto" id="ok">
                             <div className="row">
                               <img
-                                src={img2}
+                                src={img27}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -142,8 +173,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Damaging to Brand Identity
+                              <h4 className="mx-auto my-3 card-font">
+                                Lack of transparency in Supply Chain
                               </h4>
                             </div>
                           </div>
@@ -155,10 +186,9 @@ class Info extends React.Component {
                           >
                             <div className="row">
                               <img
-                                src={img3}
+                                src={img26}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -170,8 +200,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Risk to Health & Safety
+                              <h4 className="mx-auto my-3 card-font">
+                                Tough to ascertain authenticity
                               </h4>
                             </div>
                           </div>
@@ -180,10 +210,9 @@ class Info extends React.Component {
                           <div className="row mb-2 mx-auto" id="ok">
                             <div className="row">
                               <img
-                                src={img4}
+                                src={img28}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -195,8 +224,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Costs Jobs and Revenue
+                              <h4 className="mx-auto my-3 card-font">
+                                Risk to Health & Safety
                               </h4>
                             </div>
                           </div>
@@ -312,9 +341,9 @@ class Info extends React.Component {
         </div>
         <div className="parent">
           <div className="container mb-lg-1" id="solution">
-            <div className="row flex-column-reverse flex-lg-row">
+            <div className="row flex-column-reverse flex-lg-row mt-5">
               <div className="col my-auto">
-                <div className="child11 mt-lg-1 pb-sm-0 mb-lg-5 pb-lg-5">
+                <div className="child11 mt-lg-1 pb-sm-0 mb-lg-0 pb-lg-2">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
                       <div className="grid-container mx-auto">
@@ -325,10 +354,9 @@ class Info extends React.Component {
                           >
                             <div className="row">
                               <img
-                                src={img5}
+                                src={img30}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -340,8 +368,35 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Instant Proof of Origin and Authenticity
+                              <h4 className="mx-auto my-3 card-font">
+                                Product Authentication
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img29}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Consumer Interaction
                               </h4>
                             </div>
                           </div>
@@ -353,10 +408,9 @@ class Info extends React.Component {
                           >
                             <div className="row">
                               <img
-                                src={img6}
+                                src={img31}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -368,36 +422,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Independently Verifiable Digital Records
-                              </h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="grid-item">
-                          <div
-                            className="row mb-5 mx-auto mt-xs-0 mt-3"
-                            id="ok"
-                          >
-                            <div className="row">
-                              <img
-                                src={img7}
-                                alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
-                                id="neu_img"
-                              ></img>
-                            </div>
-                            <div
-                              className="row mx-3"
-                              style={{
-                                color: "white",
-                                alignSelf: "center",
-                                alignItems: "center",
-                              }}
-                            >
-                              <h4 className="mx-auto my-3">
-                                Decentralized Tamper-proof System
+                              <h4 className="mx-auto my-3 card-font">
+                                Product Birth Certificate
                               </h4>
                             </div>
                           </div>
@@ -406,10 +432,9 @@ class Info extends React.Component {
                           <div className="row  my-3 mx-auto" id="ok">
                             <div className="row">
                               <img
-                                src={img8}
+                                src={img32}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -421,8 +446,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Reliable Dependable Product Validation
+                              <h4 className="mx-auto my-3 card-font">
+                                Real-Time Item-Level Monitoring
                               </h4>
                             </div>
                           </div>
@@ -528,12 +553,12 @@ class Info extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col my-5">
+              <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-5 pt-xs-5">
                     <h5 style={{ color: "white", fontWeight: "lighter" }}>
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
-                        Discern between real and fake
+                        Autify Authenticate Block
                       </span>
                     </h5>
                     <h1
@@ -541,21 +566,343 @@ class Info extends React.Component {
                       id="h22"
                       style={{ marginTop: "2%", color: "white" }}
                     >
-                      The Blockchain Solution
+                      Up your game with uncontested truth
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
                       className="mr-3 p-linespace"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
-                        Autify leverages blockchain technology to offer the
-                        solution to this problem. We want to enable users to
-                        digitally authenticate what they’re buying in real-time
-                        with a simple scan on their smartphone. The completely
-                        unique smart tag (RFID/NFC/IoT) protects the brand
-                        identity and detects clones instantly and proves the
-                        integrity of the product via immutable digital records
-                        that can be accessed and verified from anywhere.
+                        Capture the full chain of custody along the supply chain
+                        and get real-time insights into the flow of products.
+                        Collect and share information about where and how your
+                        products are made and what they are made of.
+                      </span>
+                    </h6>
+                    <div className="my-5">
+                      <a
+                        href="#contact"
+                        data-target="#contact"
+                        className="button_info my-3"
+                      >
+                        Get in Touch
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="parent my-lg-3">
+          <div className="container" id="problem">
+            <div className="row">
+              <div className="col my-auto">
+                <div className="child2 my-auto mx-auto">
+                  <div className="my-5 pt-5">
+                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                      <span style={{ color: "#a25edc", fontWeight: "normal" }}>
+                        {" "}
+                        Autify Insurance Block
+                      </span>
+                    </h5>
+                    <h1
+                      className="py-3 mx-auto"
+                      id="h22"
+                      style={{
+                        marginTop: "2%",
+                        color: "white",
+                        WebkitBackgroundClip: "text",
+                        backgroundClip: "text",
+                      }}
+                    >
+                      Smart contract based parametric insurance
+                    </h1>
+                    <h6
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="mr-3 p-linespace"
+                    >
+                      <span style={{ color: "white", fontWeight: "normal" }}>
+                        Traditional insurance firms can leverage the benefits of
+                        blockchain technology by creating advanced smart
+                        contract-based parametric insurance agreements that
+                        automatically trigger payouts based on real-world data.
+                      </span>
+                    </h6>
+                    <div className="my-5">
+                      <a
+                        className="button_info my-3"
+                        href="#contact"
+                        data-target="#contact"
+                      >
+                        Get in Touch
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className="child11 my-lg-3 py-lg-2">
+                  <div className="container">
+                    <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
+                      <div className="grid-container mx-auto">
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img33}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Extensive Data Analysis
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img34}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Automated Payment of Claims
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mt-3 my-lg-3 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img35}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Reduced Chance of Disputes
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row  my-3 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img36}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Comprehensive Risk Assessment
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="parent">
+          <div className="container mb-lg-1" id="solution">
+            <div className="row flex-column-reverse flex-lg-row mt-5">
+              <div className="col my-auto">
+                <div className="child11 mt-lg-1 pb-sm-0 mb-lg-0 pb-lg-2">
+                  <div className="container">
+                    <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
+                      <div className="grid-container mx-auto">
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img40}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Partner Network Lending
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mx-auto mt-xs-0 mt-3"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img39}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Operates in a Permissionless Manner
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row mb-5 mt-3 my-lg-3 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img38}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Common Liquidity Pooling
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div className="row  my-3 mx-auto" id="ok">
+                            <div className="row">
+                              <img
+                                src={img37}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
+                                Access to Micro Loans
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col my-auto">
+                <div className="child2 my-auto mx-auto">
+                  <div className="my-5 pt-xs-5">
+                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                      <span style={{ color: "#a25edc", fontWeight: "normal" }}>
+                        Autify DeFi Block
+                      </span>
+                    </h5>
+                    <h1
+                      className="py-3 mx-auto"
+                      id="h22"
+                      style={{ marginTop: "2%", color: "white" }}
+                    >
+                      Unleashing the power of decentralised finance
+                    </h1>
+                    <h6
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="mr-3 p-linespace"
+                    >
+                      <span style={{ color: "white", fontWeight: "normal" }}>
+                        Autify DeFi is an ecosystem of purpose-driven lenders
+                        who offer microfinance opportunities to disenfranchised
+                        supply chain participants. The ecosystem leverages an
+                        algorithmic and autonomous interest rate protocol
+                        combined with SMS and WhatsApp. Hence, participants get
+                        access to open-source financial applications.
                       </span>
                     </h6>
                     <div className="my-5">
@@ -581,7 +928,7 @@ class Info extends React.Component {
                   <div className="my-2 pt-5">
                     <h5 style={{ color: "white", fontWeight: "lighter" }}>
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
-                        Online shopping made safe
+                        Safer online shopping
                       </span>
                     </h5>
                     <h1
@@ -594,21 +941,21 @@ class Info extends React.Component {
                         backgroundClip: "text",
                       }}
                     >
-                      Securing the <br /> E-commerce Experience
+                      Ensuring a secure <br /> E-commerce experience
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
                       className="mr-3 p-linespace"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
-                        While retail has shifted online, e-commerce has become
-                        the hotbed of knock-off products. Limited means of
-                        verification makes this illicit network hard to bring
-                        down. We are developing an expansive digital ledger of
-                        brands through inviolable blockchain technology. Our
-                        dependable protocol can be connected to popular
-                        marketplace APIs, which will make it impossible for
-                        counterfeiters to list their goods on the platform.
+                        Our world-class blockchain solution removes
+                        counterfeiters. Besides that, it ensures transparency
+                        and trust between brands and consumers dealing via
+                        e-commerce platforms. Brand reputation is ensured
+                        through efficient data analysis, effective inventory
+                        management, and seamless supply chain traceability.
+                        Hence, consumers are guaranteed that the branded
+                        products are authentic.
                       </span>
                     </h6>
                     <div className="my-5">
@@ -623,7 +970,7 @@ class Info extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col my-auto">
                 <div className="child11 my-lg-3 py-lg-3">
                   <div className="container">
                     <div className="row flex-row flex-nowrap overflow-auto x-scroll-disabled">
@@ -635,10 +982,9 @@ class Info extends React.Component {
                           >
                             <div className="row">
                               <img
-                                src={img13}
+                                src={img41}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -650,36 +996,8 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
-                                Pre-listing Product Authentication
-                              </h4>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="grid-item">
-                          <div
-                            className="row my-lg-3 mt-3 mb-5 mx-auto"
-                            id="ok"
-                          >
-                            <div className="row">
-                              <img
-                                src={img14}
-                                alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
-                                id="neu_img"
-                              ></img>
-                            </div>
-                            <div
-                              className="row mx-3"
-                              style={{
-                                color: "white",
-                                alignSelf: "center",
-                                alignItems: "center",
-                              }}
-                            >
-                              <h4 className="mx-auto my-3">
-                                Immutable Brand Information
+                              <h4 className="mx-auto my-3 card-font">
+                                Enhanced Transparency
                               </h4>
                             </div>
                           </div>
@@ -691,10 +1009,9 @@ class Info extends React.Component {
                           >
                             <div className="row">
                               <img
-                                src={img15}
+                                src={img42}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -706,7 +1023,34 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
+                              <h4 className="mx-auto my-3 card-font">
+                                Proof of Ownership and Authenticity
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="grid-item">
+                          <div
+                            className="row my-lg-3 mt-3 mb-5 mx-auto"
+                            id="ok"
+                          >
+                            <div className="row">
+                              <img
+                                src={img43}
+                                alt="alt"
+                                className="mx-auto img-fluid img-main-card"
+                                id="neu_img"
+                              ></img>
+                            </div>
+                            <div
+                              className="row mx-3"
+                              style={{
+                                color: "white",
+                                alignSelf: "center",
+                                alignItems: "center",
+                              }}
+                            >
+                              <h4 className="mx-auto my-3 card-font">
                                 Trustworthy Customer Experience
                               </h4>
                             </div>
@@ -716,10 +1060,9 @@ class Info extends React.Component {
                           <div className="row my-3 mb-5 mx-auto" id="ok">
                             <div className="row">
                               <img
-                                src={img16}
+                                src={img44}
                                 alt="alt"
-                                className="mx-auto img-fluid"
-                                style={{ width: "120px" }}
+                                className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
                               ></img>
                             </div>
@@ -731,7 +1074,7 @@ class Info extends React.Component {
                                 alignItems: "center",
                               }}
                             >
-                              <h4 className="mx-auto my-3">
+                              <h4 className="mx-auto my-3 card-font">
                                 Reduced Returns & Exchanges
                               </h4>
                             </div>
@@ -847,7 +1190,8 @@ class Info extends React.Component {
             </div>
           </div>
         </div>
-        <div className="container mb-5 pb-5 mb-lg-4 pb-lg-1 pt-lg-0 mt-xs-5 pt-xs-5">
+
+        {/* <div className="container mb-5 pb-5 mb-lg-4 pb-lg-1 pt-lg-0 mt-xs-5 pt-xs-5">
           <h5 style={{ color: "#a25edc", fontWeight: "normal" }}>
             Creating a digital identity
           </h5>
@@ -990,17 +1334,21 @@ class Info extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container mb-lg-3 pb-lg-3 pt-lg-0 pt-xs-5">
           <h5 style={{ color: "#a25edc", fontWeight: "normal" }}> </h5>
-
+          <h5 style={{ color: "white", fontWeight: "lighter" }}>
+            <span style={{ color: "#a25edc", fontWeight: "normal" }}>
+              Comprehensive solution for brands
+            </span>
+          </h5>
           <h2
-            className="my-3 mr-auto"
+            className="mt-3 mr-auto"
             id="h22"
             style={{ marginTop: "2%", color: "white" }}
           >
-            Industries we're offering{" "}
+            Industries we are targeting
           </h2>
           <div
             className="grid-ind-content mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
@@ -1008,6 +1356,90 @@ class Info extends React.Component {
             ref={this.navRef}
           >
             <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img45}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Apparel & Footwear</h4>
+            </div>
+            <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img46}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Luxury and Jewellery</h4>
+            </div>
+            <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img47}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Perfume and Cosmetics</h4>
+            </div>
+            {/* <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img48}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Electrical Equipment</h4>
+            </div> */}
+            <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img49}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Wine and Spirits</h4>
+            </div>
+            <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img50}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Automotive</h4>
+            </div>
+            <div
+              className="col my-3 mx-auto offer_card"
+              style={{ placeContent: "center", placeItems: "center" }}
+            >
+              <img
+                src={img51}
+                alt="alt"
+                className="img-fluid rounded-img ind_target"
+                id="neu_img"
+              ></img>
+              <h4 style={{ color: "white" }}>Pharma and Healthcare</h4>
+            </div>
+            {/* <div
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
               id="offer_card"
@@ -1111,9 +1543,8 @@ class Info extends React.Component {
                   id="neu_img"
                 ></img>
               </div>
-            </div>
+            </div> */}
           </div>
-
           <div
             className="mt-5 mx-auto"
             id="button_toggler"
