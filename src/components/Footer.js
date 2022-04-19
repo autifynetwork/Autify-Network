@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/white logo 3 (1).png";
+import logo from "../assets/Content Pics/Logo/Logo 2.png";
 import { db } from "../firebase";
 import { useState } from "react";
 import tele from "../assets/pngegg.png";
@@ -9,6 +9,11 @@ import img1 from "../assets/Content Pics/AUTY Token/1.8.png";
 import img2 from "../assets/Content Pics/AUTY Token/1.9.png";
 import img3 from "../assets/Content Pics/AUTY Token/1.91.png";
 import img4 from "../assets/Content Pics/AUTY Token/1.812.png";
+
+import near from "../assets/Content Pics/Partners/5.png";
+import gs1 from "../assets/Content Pics/Partners/gs1-logo.png";
+import comp from "../assets/Content Pics/Partners/7.png";
+import aws from "../assets/Content Pics/Partners/2.png";
 
 function Footer() {
   const [name, setName] = useState("");
@@ -67,6 +72,37 @@ function Footer() {
   return (
     <>
       <section className="container mx-auto">
+        <div className="partners_autify" style={{ color: "white" }}>
+          <h1
+            className="my-3 text-center"
+            id="h22"
+            style={{ marginTop: "2%", color: "white" }}
+          >
+            Partners
+          </h1>
+          <div
+            className="partners_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
+            // style={{ backgroundColor: "white" }}
+          >
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={near} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={aws} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto partner_img_container">
+              <img
+                alt="img"
+                src={gs1}
+                className="partner_img mr-xs-4"
+                style={{ height: "100px", width: "120px" }}
+              />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={comp} className="partner_img" />
+            </div>
+          </div>
+        </div>
         <div className="auty_token" style={{ color: "white" }}>
           <h1
             className="my-3 text-center"
@@ -103,7 +139,7 @@ function Footer() {
               <img alt="img" src={img4} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Reward</h2>
               <p id="auty_description">
-                Boards will use AUTY Tokens to process rewards to the end
+                Brands will use AUTY Tokens to process rewards to the end
                 consumers.
               </p>
             </div>
@@ -224,7 +260,7 @@ function Footer() {
       </section>
       <div className="footer_m" id="footer_m">
         <a href=" ">
-          <img src={logo} alt="alt-text" style={{ height: "100px" }}></img>
+          <img src={logo} alt="alt-text"></img>
         </a>
 
         <div className="row text-center">
@@ -239,7 +275,7 @@ function Footer() {
             </a>
           </div>
           <div className="col" style={{ placeItems: "center" }}>
-            <a href=" " className="button11 current">
+            <a href="/contact" className="button11 current">
               Contact Us
             </a>
           </div>

@@ -229,7 +229,7 @@ class Team extends Component {
                       />
                     </div>
                   </div>
-                  <h4 className="card-title my-3 text-truncate" id="h4">
+                  <h4 className="card-title my-3" id="h4">
                     Kunal goyal
                     <br />
                     <small className="card-description text-muted"></small>
@@ -284,10 +284,7 @@ class Team extends Component {
                     <small className="card-description text-muted"></small>
                   </h4>
                   <div className="card-body">
-                    <p
-                      className="card-description text-truncate"
-                      style={{ color: "white" }}
-                    >
+                    <p className="card-description" style={{ color: "white" }}>
                       PR Consultant
                     </p>
                   </div>
@@ -385,10 +382,7 @@ class Team extends Component {
                     <small className="card-description text-muted"></small>
                   </h4>
                   <div className="card-body">
-                    <p
-                      className="card-description text-truncate"
-                      style={{ color: "white" }}
-                    >
+                    <p className="card-description" style={{ color: "white" }}>
                       Blockchain Developer
                     </p>
                   </div>
@@ -404,7 +398,7 @@ class Team extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.linkedin.com/in/rodrigues49/)"
+                        href="https://www.linkedin.com/in/kundan-mishra-83a7991bb/"
                       >
                         {" "}
                         <img
@@ -481,7 +475,7 @@ class Team extends Component {
                     </div>
                   </div>
                   <h4 className="card-title my-3" id="h4">
-                    Keshavavarmaa S
+                    Keshavavarmaa
                     <br />
                     <small className="card-description text-muted"></small>
                   </h4>
@@ -502,7 +496,7 @@ class Team extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="(https://www.linkedin.com/in/keshava-varmaa-896a441b0/"
+                        href="https://www.linkedin.com/in/keshava-varmaa-896a441b0/"
                       >
                         {" "}
                         <img

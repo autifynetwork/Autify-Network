@@ -13,6 +13,9 @@ a:active {
   height: 300px;
   width: 250px;
 }
+#contact {
+  margin-top: 150px;
+}
 #h22 {
   font-size: 3.2rem;
   font-weight: 1000;
@@ -147,22 +150,43 @@ a:active {
   grid-template-columns: auto auto auto auto;
   gap: 1rem;
 }
+.partners_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  align-items: center;
+}
+.partner_img {
+  width: 180px;
+}
+.partners_autify {
+  margin-bottom: 8rem;
+}
 @media screen and (max-width: 1200px) {
   .auty_token_grid {
     grid-template-columns: auto auto;
   }
   .auty_item {
     border-radius: 20px;
-    background-color: #462571;
+    background-color: #12173a;
     height: 320px;
     width: 300px;
+  }
+  .partners_grid {
+    grid-template-columns: auto auto;
+  }
+  .partner_img_container {
+    margin-bottom: 16px;
   }
 }
 
 @media screen and (max-width: 800px) {
+  #contact {
+    margin-top: 100px;
+  }
   .auty_item {
     border-radius: 20px;
-    background-color: #462571;
+    background-color: #12173a;
     height: 205px;
     width: 160px;
   }
@@ -202,5 +226,13 @@ a:active {
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 700;
+  }
+  .partners_autify {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 6rem;
+  }
+  .partner_img {
+    width: 130px;
   }
 }
