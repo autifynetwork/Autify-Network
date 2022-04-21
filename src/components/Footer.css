@@ -181,6 +181,11 @@ a:active {
 }
 
 @media screen and (max-width: 800px) {
+  #p1 {
+    letter-spacing: 0px;
+    font-size: 23px;
+    line-height: 2rem;
+  }
   #contact {
     margin-top: 100px;
   }

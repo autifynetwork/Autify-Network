@@ -1,29 +1,30 @@
 import React from "react";
 import "./Info.css";
-import img1 from "..//assets/Poor Quality Product Market.webp";
-import img2 from "..//assets/Damaging to Brand Identity.webp";
-import img3 from "..//assets/Risk to Health _ Safety.webp";
-import img4 from "..//assets/Costs Jobs and Revenue.webp";
-import img5 from "..//assets/Instant Proof of Origin and Authenticity.webp";
-import img6 from "..//assets/Independently Verifiable Digital Records.webp";
-import img7 from "..//assets/Decentralized Tamper-proof System.webp";
-import img8 from "../assets/Reliable Dependable Product Validation.webp";
-import img9 from "..//assets/Distinct Product Identity.webp";
-import img10 from "..//assets/Unique Authentication System.webp";
-import img11 from "..//assets/Instant Clone Identification.webp";
-import img12 from "..//assets/Permanent Data Ledger.webp";
-import img13 from "..//assets/Pre-listing Product Authentication.png";
-import img14 from "..//assets/Immutable Brand Information.png";
-import img15 from "../assets/Trustworthy Customer Experience.png";
-import img16 from "..//assets/Reduced Returns & Exchanges1.png";
-import img17 from "..//assets/Pharmaceuticals.png";
-import img19 from "..//assets/Lifestyle & Apparel.png";
-import img18 from "../assets/Food & Beverage.png";
-import img22 from "..//assets/Luxury & Jewelery.png";
-import img20 from "..//assets/Wine & Spirits.png";
-import img21 from "..//assets/Agriculture.png";
-import img23 from "..//assets/Electrical Equipments1.png";
-import img24 from "..//assets/Perfumes and Cosmetics.png";
+
+// import img1 from "..//assets/Poor Quality Product Market.webp";
+// import img2 from "..//assets/Damaging to Brand Identity.webp";
+// import img3 from "..//assets/Risk to Health _ Safety.webp";
+// import img4 from "..//assets/Costs Jobs and Revenue.webp";
+// import img5 from "..//assets/Instant Proof of Origin and Authenticity.webp";
+// import img6 from "..//assets/Independently Verifiable Digital Records.webp";
+// import img7 from "..//assets/Decentralized Tamper-proof System.webp";
+// import img8 from "../assets/Reliable Dependable Product Validation.webp";
+// import img9 from "..//assets/Distinct Product Identity.webp";
+// import img10 from "..//assets/Unique Authentication System.webp";
+// import img11 from "..//assets/Instant Clone Identification.webp";
+// import img12 from "..//assets/Permanent Data Ledger.webp";
+// import img13 from "..//assets/Pre-listing Product Authentication.png";
+// import img14 from "..//assets/Immutable Brand Information.png";
+// import img15 from "../assets/Trustworthy Customer Experience.png";
+// import img16 from "..//assets/Reduced Returns & Exchanges1.png";
+// import img17 from "..//assets/Pharmaceuticals.png";
+// import img19 from "..//assets/Lifestyle & Apparel.png";
+// import img18 from "../assets/Food & Beverage.png";
+// import img22 from "..//assets/Luxury & Jewelery.png";
+// import img20 from "..//assets/Wine & Spirits.png";
+// import img21 from "..//assets/Agriculture.png";
+// import img23 from "..//assets/Electrical Equipments1.png";
+// import img24 from "..//assets/Perfumes and Cosmetics.png";
 
 import img25 from "../assets/Content Pics/The Future of Global Retail/Affects Brand Reputation.png";
 import img26 from "../assets/Content Pics/The Future of Global Retail/Can’t ascertain authenticity.png";
@@ -66,9 +67,9 @@ class Info extends React.Component {
   }
   handleNav = (direction) => {
     if (direction === "left") {
-      return this.navRef ? (this.navRef.current.scrollLeft -= 1100) : null;
+      return this.navRef ? (this.navRef.current.scrollLeft -= 800) : null;
     } else if (direction === "right") {
-      return this.navRef ? (this.navRef.current.scrollLeft += 1100) : null;
+      return this.navRef ? (this.navRef.current.scrollLeft += 800) : null;
     }
   };
 
@@ -81,14 +82,17 @@ class Info extends React.Component {
               <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-5 pt-5">
-                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                    <h5
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="word_align_center"
+                    >
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
                         {" "}
                         A revolution for every industry
                       </span>
                     </h5>
                     <h1
-                      className="py-3 mx-auto"
+                      className="py-3 mx-auto word_align_center"
                       id="h22"
                       style={{
                         marginTop: "2%",
@@ -101,7 +105,7 @@ class Info extends React.Component {
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
-                      className="mr-3 p-linespace"
+                      className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
                         Undoubtedly, e-commerce has globalized the supply
@@ -114,11 +118,11 @@ class Info extends React.Component {
                         theft.
                       </span>
                     </h6>
-                    <div className="my-5">
+                    <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="#contact"
-                        data-target="#contact"
+                        href="/contact"
+                        // data-target="#contact"
                       >
                         Contact Us
                       </a>
@@ -556,13 +560,16 @@ class Info extends React.Component {
               <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-5 pt-xs-5">
-                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                    <h5
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="word_align_center"
+                    >
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
                         Autify Authentication Block
                       </span>
                     </h5>
                     <h1
-                      className="py-3 mx-auto"
+                      className="py-3 mx-auto word_align_center"
                       id="h22"
                       style={{ marginTop: "2%", color: "white" }}
                     >
@@ -570,7 +577,7 @@ class Info extends React.Component {
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
-                      className="mr-3 p-linespace"
+                      className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
                         Capture the full chain of custody along the supply chain
@@ -579,10 +586,10 @@ class Info extends React.Component {
                         products are made and what they are made of.
                       </span>
                     </h6>
-                    <div className="my-5">
+                    <div className="my-5 button_container">
                       <a
-                        href="#contact"
-                        data-target="#contact"
+                        href="/contact"
+                        // data-target="#contact"
                         className="button_info my-3"
                       >
                         Contact Us
@@ -600,14 +607,17 @@ class Info extends React.Component {
               <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-5 pt-5">
-                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                    <h5
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="word_align_center"
+                    >
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
                         {" "}
                         Autify Insurance Block
                       </span>
                     </h5>
                     <h1
-                      className="py-3 mx-auto"
+                      className="py-3 mx-auto word_align_center"
                       id="h22"
                       style={{
                         marginTop: "2%",
@@ -620,7 +630,7 @@ class Info extends React.Component {
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
-                      className="mr-3 p-linespace"
+                      className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
                         Traditional insurance firms can leverage the benefits of
@@ -629,11 +639,11 @@ class Info extends React.Component {
                         automatically trigger payouts based on real-world data.
                       </span>
                     </h6>
-                    <div className="my-5">
+                    <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="#contact"
-                        data-target="#contact"
+                        href="/contact"
+                        // data-target="#contact"
                       >
                         Contact Us
                       </a>
@@ -880,13 +890,16 @@ class Info extends React.Component {
               <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-5 pt-xs-5">
-                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                    <h5
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="word_align_center"
+                    >
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
                         Autify DeFi Block
                       </span>
                     </h5>
                     <h1
-                      className="py-3 mx-auto"
+                      className="py-3 mx-auto word_align_center"
                       id="h22"
                       style={{ marginTop: "2%", color: "white" }}
                     >
@@ -894,7 +907,7 @@ class Info extends React.Component {
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
-                      className="mr-3 p-linespace"
+                      className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
                         Autify DeFi is an ecosystem of purpose-driven lenders
@@ -905,10 +918,10 @@ class Info extends React.Component {
                         access to open-source financial applications.
                       </span>
                     </h6>
-                    <div className="my-5">
+                    <div className="my-5 button_container">
                       <a
-                        href="#contact"
-                        data-target="#contact"
+                        href="/contact"
+                        // data-target="#contact"
                         className="button_info my-3"
                       >
                         Contact Us
@@ -926,13 +939,16 @@ class Info extends React.Component {
               <div className="col my-auto">
                 <div className="child2 my-auto mx-auto">
                   <div className="my-2 pt-5">
-                    <h5 style={{ color: "white", fontWeight: "lighter" }}>
+                    <h5
+                      style={{ color: "white", fontWeight: "lighter" }}
+                      className="word_align_center"
+                    >
                       <span style={{ color: "#a25edc", fontWeight: "normal" }}>
                         Safer online shopping
                       </span>
                     </h5>
                     <h1
-                      className="py-3 mx-auto"
+                      className="py-3 mx-auto word_align_center"
                       id="h22"
                       style={{
                         marginTop: "2%",
@@ -945,7 +961,7 @@ class Info extends React.Component {
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
-                      className="mr-3 p-linespace"
+                      className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
                         Our world-class blockchain solution removes
@@ -958,11 +974,11 @@ class Info extends React.Component {
                         products are authentic.
                       </span>
                     </h6>
-                    <div className="my-5">
+                    <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="#contact"
-                        data-target="#contact"
+                        href="/contact"
+                        // data-target="#contact"
                       >
                         Contact Us
                       </a>
@@ -1336,62 +1352,82 @@ class Info extends React.Component {
           </div>
         </div> */}
 
-        <div className="container mb-lg-3 pb-lg-3 pt-lg-0 pt-xs-5">
-          <h5 style={{ color: "#a25edc", fontWeight: "normal" }}> </h5>
-          <h5 style={{ color: "white", fontWeight: "lighter" }}>
-            <span style={{ color: "#a25edc", fontWeight: "normal" }}>
-              Comprehensive solution for brands
-            </span>
-          </h5>
-          <h2
-            className="mt-3 mr-auto"
-            id="h22"
-            style={{ marginTop: "2%", color: "white" }}
-          >
-            Industries we are targeting
-          </h2>
-          <div
-            className="grid-ind-content mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
-            id="phone"
-            ref={this.navRef}
-          >
-            <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
+        <div className=" mb-lg-3 pb-lg-1 pt-lg-0 pt-xs-5">
+          <div className="container">
+            <h5
+              style={{ color: "white", fontWeight: "lighter" }}
+              className="word_align_center"
             >
-              <img
-                src={img45}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Apparel & Footwear</h4>
+              <span style={{ color: "#a25edc", fontWeight: "normal" }}>
+                Comprehensive solution for brands
+              </span>
+            </h5>
+            <h2
+              className="mt-3 mr-auto word_align_center"
+              id="h22"
+              style={{ marginTop: "2%", color: "white" }}
+            >
+              Industries we are targeting
+            </h2>
+          </div>
+          <div className="row ind_cont">
+            <div className="hidden-xs col-md-1 col-xs-0 text-white hide_mob">
+              <a
+                class="carousel-control-prev"
+                href="#carouselControls"
+                role="button"
+                data-slide="prev"
+                onClick={() => this.handleNav("left")}
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
             </div>
             <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
+              className="col grid-ind-content mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
+              id="phone"
+              ref={this.navRef}
             >
-              <img
-                src={img46}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Luxury and Jewellery</h4>
-            </div>
-            <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
-            >
-              <img
-                src={img47}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Perfume and Cosmetics</h4>
-            </div>
-            {/* <div
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img45}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Apparel & Footwear</h4>
+              </div>
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img46}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Luxury and Jewellery</h4>
+              </div>
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img47}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Perfume and Cosmetics</h4>
+              </div>
+              {/* <div
               className="col my-3 mx-auto offer_card"
               style={{ placeContent: "center", placeItems: "center" }}
             >
@@ -1403,43 +1439,43 @@ class Info extends React.Component {
               ></img>
               <h4 style={{ color: "white" }}>Electrical Equipment</h4>
             </div> */}
-            <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
-            >
-              <img
-                src={img49}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Wine and Spirits</h4>
-            </div>
-            <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
-            >
-              <img
-                src={img50}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Automotive</h4>
-            </div>
-            <div
-              className="col my-3 mx-auto offer_card"
-              style={{ placeContent: "center", placeItems: "center" }}
-            >
-              <img
-                src={img51}
-                alt="alt"
-                className="img-fluid rounded-img ind_target"
-                id="neu_img"
-              ></img>
-              <h4 style={{ color: "white" }}>Pharma and Healthcare</h4>
-            </div>
-            {/* <div
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img49}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Wine and Spirits</h4>
+              </div>
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img50}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Automotive</h4>
+              </div>
+              <div
+                className="col my-3 mx-auto offer_card"
+                style={{ placeContent: "center", placeItems: "center" }}
+              >
+                <img
+                  src={img51}
+                  alt="alt"
+                  className="img-fluid rounded-img ind_target"
+                  id="neu_img"
+                ></img>
+                <h4 style={{ color: "white" }}>Pharma and Healthcare</h4>
+              </div>
+              {/* <div
               className="col my-3 mx-auto"
               style={{ placeContent: "center", placeItems: "center" }}
               id="offer_card"
@@ -1544,8 +1580,25 @@ class Info extends React.Component {
                 ></img>
               </div>
             </div> */}
+            </div>
+            <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
+              <a
+                class="carousel-control-next"
+                href="#carouselControls"
+                role="button"
+                data-slide="next"
+                onClick={() => this.handleNav("right")}
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
-          <div
+
+          {/* <div
             className="mt-5 mx-auto"
             id="button_toggler"
             style={{ paddingLeft: "30vw" }}
@@ -1564,7 +1617,7 @@ class Info extends React.Component {
             >
               {" "}
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* 

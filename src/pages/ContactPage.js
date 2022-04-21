@@ -63,15 +63,30 @@ const ContactPage = () => {
             <h2 id="h2" className="text-center mb-4">
               Contact Us
               <span className="mx-auto text-center mt-4" id="p1">
-                Keen to get more coverage? Contact pr@autify.network
-                <br />
-                Want to be part of our team? email us hr@autify.network
-                <br />
-                Determined to maximise your reach influencer@autify.network
-                <br /> Want to be part of Autify fundraising round?
-                invest@autify.network
-                <br /> Want to be an integral part of the Web 3.0 era? Join
-                hands with Autify: hello@autify.network
+                <div className="mb-4 mb-md-0">
+                  <span>Keen to get more coverage?</span>{" "}
+                  <span>contact pr@autify.network</span>
+                  <br />
+                </div>
+                <div className="mb-4 mb-md-0">
+                  <span>Want to be part of our team?</span>{" "}
+                  <span>email us hr@autify.network</span>
+                  <br />
+                </div>
+                <div className="mb-4 mb-md-0">
+                  <span>Determined to maximise your reach</span>
+                  <span>influencer@autify.network</span>
+                  <br />
+                </div>{" "}
+                <div className="mb-4 mb-md-0">
+                  <span>Want to be part of Autify fundraising round?</span>
+                  <span>invest@autify.network</span>
+                  <br />
+                </div>{" "}
+                <div className="mb-4 mb-md-0">
+                  <span>Want to be an integral part of the Web 3.0 era?</span>{" "}
+                  <span>Join hands with Autify: hello@autify.network</span>
+                </div>
               </span>
             </h2>
             <div className="row mb-1">

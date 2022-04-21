@@ -4,6 +4,7 @@ import logo2 from "../assets/Content Pics/Logo/Logo 2.png";
 import "./Nav.css";
 
 import tele from "../assets/pngegg.png";
+import Intro from "./Intro";
 
 function Nav() {
   return (
@@ -13,7 +14,7 @@ function Nav() {
           className="navbar navbar-expand-lg navbar-toggleable-sm fixed-top"
           id="nav"
         >
-          <a className="navbar-brand ml-lg-5 pl-xs-0 pl-lg-4" href=" ">
+          <a className="navbar-brand ml-lg-5 pl-xs-0 pl-lg-4" href="/">
             <img
               src={logo2}
               alt=""
@@ -37,7 +38,7 @@ function Nav() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active mx-4 my-3">
                 <a
-                  href="#team"
+                  href="/#team"
                   data-target="#team"
                   className="button current"
                   style={{ fontWeight: "500" }}
@@ -49,7 +50,7 @@ function Nav() {
               <li className="nav-item mx-4 my-3 current">
                 <a
                   className="button"
-                  href="#solution"
+                  href="/#solution"
                   data-target="#solution"
                   style={{ fontWeight: "500" }}
                 >
@@ -60,8 +61,8 @@ function Nav() {
               <li className="nav-item mx-4 my-3 current">
                 <a
                   className="button"
-                  href="#footer_m"
-                  data-target="#footer_m"
+                  href="/contact"
+                  // data-target="#footer_m"
                   style={{ fontWeight: "500" }}
                 >
                   Contact Us{" "}
@@ -69,7 +70,7 @@ function Nav() {
               </li>
               <li className="nav-item mx-4 my-3">
                 <a
-                  href="#team"
+                  href="/#team"
                   data-target="#team"
                   className="button current"
                   style={{ fontWeight: "500" }}
@@ -158,6 +159,7 @@ function Nav() {
             </ul> */}
           </div>
         </nav>
+        {/* <Intro /> */}
       </section>
     </>
   );

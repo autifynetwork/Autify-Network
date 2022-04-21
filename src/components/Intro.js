@@ -4,7 +4,7 @@ import "./Nav.css";
 
 const Intro = () => {
   return (
-    <>
+    <div id="landing">
       <div className="parent1" style={{ borderStyle: "none" }} id="home">
         <div className="child2 mt-lg-5 pt-lg-5">
           <div className="heading">
@@ -55,7 +55,7 @@ const Intro = () => {
           ></img>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
