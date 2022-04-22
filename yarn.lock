@@ -11278,7 +11278,7 @@
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz"
   "version" "4.6.3"
 
-"typewriter-effect@^2.18.0":
+"typewriter-effect@^2.18.2":
   "integrity" "sha512-I6VLfaICftFgZ3sauoVrvHmqzD2r1t+roopD6pyQ1EV4fmq3kZ4ssfLJk9mPd1VHdnwb9XxSnDH09QHNJ/HrXw=="
   "resolved" "https://registry.npmjs.org/typewriter-effect/-/typewriter-effect-2.18.2.tgz"
   "version" "2.18.2"

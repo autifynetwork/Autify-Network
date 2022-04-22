@@ -64,28 +64,28 @@ const ContactPage = () => {
               Contact Us
               <span className="mx-auto text-center mt-4" id="p1">
                 <div className="mb-4 mb-md-0">
-                  <span>Keen to get more coverage?</span>{" "}
-                  <span>contact pr@autify.network</span>
+                  <span>Keen to get more coverage? </span>{" "}
+                  <span>email us: pr@autify.network</span>
                   <br />
                 </div>
                 <div className="mb-4 mb-md-0">
-                  <span>Want to be part of our team?</span>{" "}
-                  <span>email us hr@autify.network</span>
+                  <span>Want to be part of our team? </span>{" "}
+                  <span>email us: hr@autify.network</span>
                   <br />
                 </div>
                 <div className="mb-4 mb-md-0">
-                  <span>Determined to maximise your reach</span>
-                  <span>influencer@autify.network</span>
+                  <span>Want to be part of Autify fundraising round? </span>
+                  <span>email us: invest@autify.network</span>
                   <br />
                 </div>{" "}
                 <div className="mb-4 mb-md-0">
-                  <span>Want to be part of Autify fundraising round?</span>
-                  <span>invest@autify.network</span>
+                  <span>Want to be an integral part of the Web3 era? </span>
+                  <span>email us: hello@autify.network</span>
                   <br />
                 </div>{" "}
                 <div className="mb-4 mb-md-0">
-                  <span>Want to be an integral part of the Web 3.0 era?</span>{" "}
-                  <span>Join hands with Autify: hello@autify.network</span>
+                  <span>Can help us on getting more customers? </span>{" "}
+                  <span>email us: marketing@autify.network</span>
                 </div>
               </span>
             </h2>

@@ -141,6 +141,58 @@ class Team extends Component {
                     <div className="row">
                       <div className="col">
                         <img
+                          src={team11}
+                          alt="ThumbnailImage"
+                          className="img-raised rounded-circle mx-auto"
+                          id="team_img1"
+                        />
+                      </div>
+                    </div>
+                    <h4 className="card-title my-3" id="h4">
+                      Kunal goyal
+                      <br />
+                      <small className="card-description text-muted"></small>
+                    </h4>
+                    <div className="card-body">
+                      <p
+                        className="card-description"
+                        style={{ color: "white" }}
+                      >
+                        Blockchain Developer
+                      </p>
+                    </div>
+                    <div className="card-footer justify-content-center">
+                      <div
+                        className="landing__foot__icons"
+                        style={{ display: "block" }}
+                      >
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          alt="twitter"
+                        ></img>
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.linkedin.com/in/kunalgoyal9/"
+                        >
+                          {" "}
+                          <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                            alt="linkedin"
+                          />{" "}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col ">
+                <div className="team-player mr-auto ml-auto">
+                  <div className="card card-plain">
+                    <div className="row">
+                      <div className="col">
+                        <img
                           src={team10}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -181,110 +233,6 @@ class Team extends Component {
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
                             alt="linkedin"
                           ></img>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col ">
-                <div className="team-player mx-auto">
-                  <div className="card card-plain">
-                    <div className="row">
-                      <div className="col">
-                        <img
-                          src={team5}
-                          alt="ThumbnailImage"
-                          className="img-raised rounded-circle mx-auto"
-                          id="team_img1"
-                        />
-                      </div>
-                    </div>
-                    <h4 className="card-title my-3" id="h4">
-                      Shreejata Neogi
-                      <br />
-                      <small className="card-description text-muted"></small>
-                    </h4>
-                    <div className="card-body">
-                      <p
-                        className="card-description"
-                        style={{ color: "white" }}
-                      >
-                        Graphics & video lead
-                      </p>
-                    </div>
-                    <div className="card-footer justify-content-center">
-                      <div
-                        className="landing__foot__icons"
-                        style={{ display: "block" }}
-                      >
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                          alt="twitter"
-                        ></img>
-                        <a
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://www.linkedin.com/in/shreejata-neogi-0b37b1165/"
-                        >
-                          {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
-                            alt="linkedin"
-                          ></img>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col ">
-                <div className="team-player mr-auto ml-auto">
-                  <div className="card card-plain">
-                    <div className="row">
-                      <div className="col">
-                        <img
-                          src={team11}
-                          alt="ThumbnailImage"
-                          className="img-raised rounded-circle mx-auto"
-                          id="team_img1"
-                        />
-                      </div>
-                    </div>
-                    <h4 className="card-title my-3" id="h4">
-                      Kunal goyal
-                      <br />
-                      <small className="card-description text-muted"></small>
-                    </h4>
-                    <div className="card-body">
-                      <p
-                        className="card-description"
-                        style={{ color: "white" }}
-                      >
-                        Blockchain Developer
-                      </p>
-                    </div>
-                    <div className="card-footer justify-content-center">
-                      <div
-                        className="landing__foot__icons"
-                        style={{ display: "block" }}
-                      >
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                          alt="twitter"
-                        ></img>
-                        <a
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://www.linkedin.com/in/kunalgoyal9/"
-                        >
-                          {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
-                            alt="linkedin"
-                          />{" "}
                         </a>
                       </div>
                     </div>
@@ -348,17 +296,17 @@ class Team extends Component {
                 <div className="team-player mx-auto">
                   <div className="card card-plain">
                     <div className="row">
-                      <div className="col mx-auto">
+                      <div className="col">
                         <img
-                          src={team12}
+                          src={team5}
                           alt="ThumbnailImage"
-                          className="img-raised  rounded-circle mx-auto"
+                          className="img-raised rounded-circle mx-auto"
                           id="team_img1"
                         />
                       </div>
                     </div>
                     <h4 className="card-title my-3" id="h4">
-                      Rahul Manoj
+                      Shreejata Neogi
                       <br />
                       <small className="card-description text-muted"></small>
                     </h4>
@@ -367,7 +315,7 @@ class Team extends Component {
                         className="card-description"
                         style={{ color: "white" }}
                       >
-                        Content Lead
+                        Graphics & video lead
                       </p>
                     </div>
                     <div className="card-footer justify-content-center">
@@ -382,7 +330,7 @@ class Team extends Component {
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.linkedin.com/in/rahul-m-55b309174/"
+                          href="https://www.linkedin.com/in/shreejata-neogi-0b37b1165/"
                         >
                           {" "}
                           <img
@@ -536,6 +484,58 @@ class Team extends Component {
                           target="_blank"
                           rel="noreferrer"
                           href="https://www.linkedin.com/in/keshava-varmaa-896a441b0/"
+                        >
+                          {" "}
+                          <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                            alt="linkedin"
+                          ></img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col ">
+                <div className="team-player mx-auto">
+                  <div className="card card-plain">
+                    <div className="row">
+                      <div className="col mx-auto">
+                        <img
+                          src={team12}
+                          alt="ThumbnailImage"
+                          className="img-raised  rounded-circle mx-auto"
+                          id="team_img1"
+                        />
+                      </div>
+                    </div>
+                    <h4 className="card-title my-3" id="h4">
+                      Rahul Manoj
+                      <br />
+                      <small className="card-description text-muted"></small>
+                    </h4>
+                    <div className="card-body">
+                      <p
+                        className="card-description"
+                        style={{ color: "white" }}
+                      >
+                        Content Lead
+                      </p>
+                    </div>
+                    <div className="card-footer justify-content-center">
+                      <div
+                        className="landing__foot__icons"
+                        style={{ display: "block" }}
+                      >
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          alt="twitter"
+                        ></img>
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.linkedin.com/in/rahul-m-55b309174/"
                         >
                           {" "}
                           <img

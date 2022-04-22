@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "..//assets/Web Graphic1.webp";
+import Typewriter from "typewriter-effect";
 import "./Nav.css";
 
 const Intro = () => {
@@ -9,6 +10,7 @@ const Intro = () => {
         <div className="child2 mt-lg-5 pt-lg-5">
           <div className="heading">
             <h1
+              className="pb-1"
               id="heading"
               style={{
                 background: "white",
@@ -17,7 +19,27 @@ const Intro = () => {
                 color: "transparent",
               }}
             >
-              Making Commerce more Transparent through the Power of Blockchain
+              Making Commerce more Transparent through the Power of{" "}
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  cursorClassName: "text-white",
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+
+                    .typeString("Blockchain")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("AI")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Computer Vision")
+                    .pauseFor(1000)
+                    .start();
+                }}
+              />
             </h1>
             <div className="my-md-5 my-lg-0 pt-3">
               <h5

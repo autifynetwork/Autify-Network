@@ -14,6 +14,8 @@ import near from "../assets/Content Pics/Partners/5.png";
 import gs1 from "../assets/Content Pics/Partners/gs1-logo.png";
 import comp from "../assets/Content Pics/Partners/7.png";
 import aws from "../assets/Content Pics/Partners/2.png";
+import dfinity from "../assets/Content Pics/Partners/Dfinity.png";
+import ascent from "../assets/Content Pics/Partners/Ascent-Advisors.png";
 
 function Footer() {
   const [name, setName] = useState("");
@@ -100,6 +102,12 @@ function Footer() {
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={comp} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={dfinity} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={ascent} className="partner_img" />
             </div>
           </div>
         </div>
