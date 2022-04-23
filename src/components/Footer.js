@@ -10,12 +10,12 @@ import img2 from "../assets/Content Pics/AUTY Token/1.9.png";
 import img3 from "../assets/Content Pics/AUTY Token/1.91.png";
 import img4 from "../assets/Content Pics/AUTY Token/1.812.png";
 
-import near from "../assets/Content Pics/Partners/5.png";
-import gs1 from "../assets/Content Pics/Partners/gs1-logo.png";
-import comp from "../assets/Content Pics/Partners/7.png";
-import aws from "../assets/Content Pics/Partners/2.png";
-import dfinity from "../assets/Content Pics/Partners/Dfinity.png";
-import ascent from "../assets/Content Pics/Partners/Ascent-Advisors.png";
+import near from "../assets/Content Pics/Partners/4.png";
+import gs1 from "../assets/Content Pics/Partners/8.png";
+import comp from "../assets/Content Pics/Partners/6.png";
+import aws from "../assets/Content Pics/Partners/1.png";
+import dfinity from "../assets/Content Pics/Partners/5.png";
+import ascent from "../assets/Content Pics/Partners/7.png";
 
 function Footer() {
   const [name, setName] = useState("");
@@ -93,12 +93,7 @@ function Footer() {
               <img alt="img" src={aws} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto partner_img_container">
-              <img
-                alt="img"
-                src={gs1}
-                className="partner_img mr-xs-4"
-                style={{ height: "100px", width: "120px" }}
-              />
+              <img alt="img" src={gs1} className="partner_img mr-xs-4" />
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={comp} className="partner_img" />
