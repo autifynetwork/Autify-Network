@@ -1,20 +1,20 @@
 /* eslint-disable no-restricted-globals */
 import React, { Component } from "react";
 import "./Team.css";
-import team1 from "..//assets/Team Pictures web/Team New/Nabarun Chakraborty1.png";
+import team1 from "..//assets/Team Pictures web/Team New/Nabarun Chakraborty.png";
 import team2 from "..//assets/Team Pictures web/Joel Dsouza.png";
 import team3 from "..//assets/Team Pictures web/Sanjana.webp";
-import team4 from "..//assets/Team Pictures web/Team New/Reshmi Mitra 1.png";
-import team5 from "..//assets/Team Pictures web/Team New/Shreejata Neogi1.png";
+import team4 from "..//assets/Team Pictures web/Team New/Reshmi Mitra.png";
+import team5 from "..//assets/Team Pictures web/Team New/Shreejata Neogi.png";
 import team6 from "..//assets/Team Pictures web/Ashwathy Ramachandran.webp";
 import team7 from "..//assets/Team Pictures web/Viiny.png";
 import team8 from "..//assets/Team Pictures web/Shrey Chopra.webp";
 import team9 from "..//assets/Team Pictures web/Preetish Biswal.webp";
 import team10 from "..//assets/Team Pictures web/Team New/Wasim Bari.png";
-import team11 from "../assets/Team Pictures web/Team New/Kunal-Goyal.png";
-import team12 from "../assets/Team Pictures web/Team New/Rahul Manoj 1.png";
-import team13 from "../assets/Team Pictures web/Team New/Kundan Mishra 1.png";
-import team14 from "../assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
+import team11 from "../assets/Team Pictures web/Team New/Kunal Goyal.png";
+import team12 from "../assets/Team Pictures web/Team New/Soumitra Sen.png";
+import team13 from "../assets/Team Pictures web/Team New/Kundan Mishra.png";
+import team14 from "../assets/Team Pictures web/Team New/Keshava Varmaa S.png";
 
 class Team extends Component {
   constructor(props) {
@@ -148,7 +148,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Kunal goyal
                       <br />
                       <small className="card-description text-muted"></small>
@@ -200,7 +200,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3 pt-2" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Wasim Bari
                       <br />
                       <small className="card-description text-muted"></small>
@@ -253,7 +253,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3 pt-1" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Reshmi Mitra
                       <br />
                       <small className="card-description text-muted"></small>
@@ -305,7 +305,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Shreejata Neogi
                       <br />
                       <small className="card-description text-muted"></small>
@@ -357,7 +357,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Kundan Mishra
                       <br />
                       <small className="card-description text-muted"></small>
@@ -458,7 +458,7 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3" id="h4">
+                    <h4 className="card-title mt-4" id="h4">
                       Keshavavarmaa
                       <br />
                       <small className="card-description text-muted"></small>
@@ -510,8 +510,8 @@ class Team extends Component {
                         />
                       </div>
                     </div>
-                    <h4 className="card-title my-3" id="h4">
-                      Rahul Manoj
+                    <h4 className="card-title mt-4" id="h4">
+                      Soumitra Sen
                       <br />
                       <small className="card-description text-muted"></small>
                     </h4>
@@ -528,14 +528,20 @@ class Team extends Component {
                         className="landing__foot__icons"
                         style={{ display: "block" }}
                       >
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
-                          alt="twitter"
-                        ></img>
                         <a
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.linkedin.com/in/rahul-m-55b309174/"
+                          href="https://twitter.com/soumitrasen5"
+                        >
+                          <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                            alt="twitter"
+                          ></img>
+                        </a>
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.linkedin.com/in/soumitra-sen-blockchain-content-writer-44a44b166/"
                         >
                           {" "}
                           <img

@@ -16,6 +16,8 @@ import comp from "../assets/Content Pics/Partners/6.png";
 import aws from "../assets/Content Pics/Partners/1.png";
 import dfinity from "../assets/Content Pics/Partners/5.png";
 import ascent from "../assets/Content Pics/Partners/7.png";
+import filecoin from "../assets/Content Pics/Partners/Filecoin.png";
+import iba from "../assets/Content Pics/Partners/India blockchain accelerator.png";
 
 function Footer() {
   const [name, setName] = useState("");
@@ -87,20 +89,26 @@ function Footer() {
             // style={{ backgroundColor: "white" }}
           >
             <div className="mt-5 mx-auto">
+              <img alt="img" src={filecoin} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={iba} className="partner_img" />
+            </div>
+            {/* <div className="mt-5 mx-auto">
               <img alt="img" src={near} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={aws} className="partner_img" />
-            </div>
+            </div> */}
             <div className="mt-5 mx-auto partner_img_container">
               <img alt="img" src={gs1} className="partner_img mr-xs-4" />
             </div>
-            <div className="mt-5 mx-auto">
+            {/* <div className="mt-5 mx-auto">
               <img alt="img" src={comp} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={dfinity} className="partner_img" />
-            </div>
+            </div> */}
             <div className="mt-5 mx-auto">
               <img alt="img" src={ascent} className="partner_img" />
             </div>

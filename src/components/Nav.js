@@ -68,7 +68,7 @@ function Nav() {
                   Contact Us{" "}
                 </a>
               </li>
-              <li className="nav-item mx-4 my-3">
+              {/* <li className="nav-item mx-4 my-3">
                 <a
                   href="/#team"
                   data-target="#team"
@@ -77,7 +77,7 @@ function Nav() {
                 >
                   Lightpaper
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item mx-md-2 mx-3 my-3">
                 <a
                   href="https://twitter.com/autifynetwork"
