@@ -101,21 +101,22 @@ class Info extends React.Component {
                         backgroundClip: "text",
                       }}
                     >
-                      The Future of Global Retail
+                      Systemic Problems Across Supply Chains
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
                       className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
-                        Undoubtedly, e-commerce has globalized the supply
-                        distribution chain. People can order any product from
-                        anywhere at anytime. Likewise, manufacturers have to
-                        deal with high consumer demand. They are reducing their
-                        operating costs by using low-quality raw materials and
-                        following sub-standard manufacturing practices. This has
-                        resulted in counterfeit goods and intellectual property
-                        theft.
+                        Global trade and supply chains are highly complex and
+                        involve many actors – both public and private.
+                        Information is pushed between actors and re-keyed into
+                        new systems leading to a loss of data integrity and
+                        authenticity. With consumers increasingly concerned
+                        about where products come from, the meaning of
+                        responsible business is shifting, demanding companies to
+                        be more transparent, source ethically, and operate
+                        sustainably by reducing the wastage of resources.
                       </span>
                     </h6>
                     <div className="my-5 button_container">
@@ -154,7 +155,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Affects Brand Reputation
+                                Affects Brand Reputation & Revenue Loss
                               </h4>
                             </div>
                           </div>
@@ -178,7 +179,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Lack of transparency in Supply Chain
+                                Disparate Data for Supply Chain Traceability
                               </h4>
                             </div>
                           </div>
@@ -205,7 +206,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Tough to ascertain authenticity
+                                Counterfeiting & Proving Product Authenticity
                               </h4>
                             </div>
                           </div>
@@ -229,7 +230,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Risk to Health & Safety
+                                Risk to Health Safety & Insurance Claims Process
                               </h4>
                             </div>
                           </div>
@@ -373,7 +374,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Product Authentication
+                                Real-Time Product Authentication
                               </h4>
                             </div>
                           </div>
@@ -400,7 +401,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Consumer Interaction
+                                Consumer Interaction & Collaboration
                               </h4>
                             </div>
                           </div>
@@ -427,7 +428,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Product Birth Certificate
+                                Digital Twins/ Product Birth Certificate
                               </h4>
                             </div>
                           </div>
@@ -451,7 +452,7 @@ class Info extends React.Component {
                               }}
                             >
                               <h4 className="mx-auto my-3 card-font">
-                                Real-Time Item-Level Monitoring
+                                Real-Time Report to Authorized Actors
                               </h4>
                             </div>
                           </div>
@@ -573,17 +574,20 @@ class Info extends React.Component {
                       id="h22"
                       style={{ marginTop: "2%", color: "white" }}
                     >
-                      Up your game with uncontested truth
+                      Up Your Game With Uncontested Truth
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
                       className="mr-3 p-linespace word_align_center"
                     >
                       <span style={{ color: "white", fontWeight: "normal" }}>
-                        Capture the full chain of custody along the supply chain
-                        and get real-time insights into the flow of products.
-                        Collect and share information about where and how your
-                        products are made and what they are made of.
+                        The supply chain of the future is significantly enhanced
+                        by Distributed Ledger Technology. Original documents and
+                        events are reported in real-time and made available to
+                        authorized actors. This way, everyone has access to the
+                        original data instead of duplicated data in multiple
+                        siloed systems. The result is better, faster and more
+                        cost-efficient trade.
                       </span>
                     </h6>
                     <div className="my-5 button_container">
@@ -626,7 +630,7 @@ class Info extends React.Component {
                         backgroundClip: "text",
                       }}
                     >
-                      Smart contract based parametric insurance
+                      Smart Contract Based Parametric Insurance
                     </h1>
                     <h6
                       style={{ color: "white", fontWeight: "lighter" }}
@@ -636,7 +640,8 @@ class Info extends React.Component {
                         Traditional insurance firms can leverage the benefits of
                         blockchain technology by creating advanced smart
                         contract-based parametric insurance agreements that
-                        automatically trigger payouts based on real-world data.
+                        automatically trigger payouts based on real-world data
+                        to suppliers, manufacturers & brand owners.
                       </span>
                     </h6>
                     <div className="my-5 button_container">

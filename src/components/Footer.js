@@ -9,15 +9,23 @@ import img1 from "../assets/Content Pics/AUTY Token/1.8.png";
 import img2 from "../assets/Content Pics/AUTY Token/1.9.png";
 import img3 from "../assets/Content Pics/AUTY Token/1.91.png";
 import img4 from "../assets/Content Pics/AUTY Token/1.812.png";
+import img5 from "../assets/Content Pics/AUTY Token/Pitch deckBG13.png";
 
-import near from "../assets/Content Pics/Partners/4.png";
+// import near from "../assets/Content Pics/Partners/4.png";
 import gs1 from "../assets/Content Pics/Partners/8.png";
 import comp from "../assets/Content Pics/Partners/6.png";
 import aws from "../assets/Content Pics/Partners/1.png";
-import dfinity from "../assets/Content Pics/Partners/5.png";
+// import dfinity from "../assets/Content Pics/Partners/5.png";
 import ascent from "../assets/Content Pics/Partners/7.png";
 import filecoin from "../assets/Content Pics/Partners/Filecoin.png";
 import iba from "../assets/Content Pics/Partners/India blockchain accelerator.png";
+
+import biconomy from "../assets/Investors/Biconomy.png";
+import celo from "../assets/Investors/Celo.png";
+import dfinity from "../assets/Investors/Dfinity.png";
+import loop from "../assets/Investors/Loop ventures.png";
+import near from "../assets/Investors/Near.png";
+import zilhive from "../assets/Investors/Zilhive.png";
 
 function Footer() {
   const [name, setName] = useState("");
@@ -84,34 +92,54 @@ function Footer() {
           >
             Partners
           </h1>
-          <div
-            className="partners_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"
-            // style={{ backgroundColor: "white" }}
-          >
+          {/* <div className="partners_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12"> */}
+          <div className="partners_grid">
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={near} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={loop} className="partner_img" />
+            </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={filecoin} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto">
+              <img alt="img" src={dfinity} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={celo} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={biconomy} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={ascent} className="partner_img" />
+            </div>
+            <div className="mt-5 mx-auto">
               <img alt="img" src={iba} className="partner_img" />
             </div>
+
+            <div className="mt-5 mx-auto">
+              <img alt="img" src={zilhive} className="partner_img" />
+            </div>
+            {/* <div className="mt-5 mx-auto">
+              <img alt="img" src={iba} className="partner_img" />
+            </div> */}
             {/* <div className="mt-5 mx-auto">
               <img alt="img" src={near} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={aws} className="partner_img" />
             </div> */}
-            <div className="mt-5 mx-auto partner_img_container">
+            {/* <div className="mt-5 mx-auto partner_img_container">
               <img alt="img" src={gs1} className="partner_img mr-xs-4" />
-            </div>
+            </div> */}
             {/* <div className="mt-5 mx-auto">
               <img alt="img" src={comp} className="partner_img" />
             </div>
             <div className="mt-5 mx-auto">
               <img alt="img" src={dfinity} className="partner_img" />
             </div> */}
-            <div className="mt-5 mx-auto">
-              <img alt="img" src={ascent} className="partner_img" />
-            </div>
           </div>
         </div>
         <div className="auty_token" style={{ color: "white" }}>
@@ -120,30 +148,22 @@ function Footer() {
             id="h22"
             style={{ marginTop: "2%", color: "white" }}
           >
-            AUTY Token
+            Token Utility
           </h1>
-          <div className="auty_token_grid mx-auto mb-lg-5 pb-lg-5 flex-row flex-nowrap overflow-auto x-scroll-disabled row-xs-12">
+          <div className="auty_token_grid">
             <div className="auty_item text-center col my-3 mx-auto">
               <img alt="img" src={img1} className="auty_img" id="neu_img"></img>
               <h2 id="auty_title">Fees</h2>
               <p id="auty_description">
-                Every on-chain transaction takes fees.
+                Every on-chain transaction takes fees using AUTY tokens.
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img2} className="auty_img" id="neu_img"></img>
-              <h2 id="auty_title">Governance</h2>
+              <img alt="img" src={img5} className="auty_img" id="neu_img"></img>
+              <h2 id="auty_title">Data Provider</h2>
               <p id="auty_description">
-                AUTY Token is used for facilitating governance activities such
-                as Voting.
-              </p>
-            </div>
-            <div className="auty_item text-center col my-3 mx-auto">
-              <img alt="img" src={img3} className="auty_img" id="neu_img"></img>
-              <h2 id="auty_title">Staking</h2>
-              <p id="auty_description">
-                AUTY token holders can stake AUTY tokens on DApp as well as
-                network. By doing so, the staker can earn AUTY tokens.
+                Data provider/validator will use AUTY tokens to increase
+                participation.
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
@@ -152,6 +172,23 @@ function Footer() {
               <p id="auty_description">
                 Brands will use AUTY Tokens to process rewards to the end
                 consumers.
+              </p>
+            </div>
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img3} className="auty_img" id="neu_img"></img>
+              <h2 id="auty_title">Staking</h2>
+              <p id="auty_description">
+                AUTY token holders can earn rewards by staking their tokens.
+                {/* AUTY token holders can stake AUTY tokens on DApp as well as
+                network. By doing so, the staker can earn AUTY tokens. */}
+              </p>
+            </div>
+            <div className="auty_item text-center col my-3 mx-auto">
+              <img alt="img" src={img2} className="auty_img" id="neu_img"></img>
+              <h2 id="auty_title">Governance</h2>
+              <p id="auty_description">
+                AUTY Token is used for facilitating the governance activities
+                such as Voting.
               </p>
             </div>
           </div>
