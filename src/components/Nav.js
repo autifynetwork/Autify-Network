@@ -49,7 +49,7 @@ function Nav() {
         <div className="hellobar">
           <div className="hellobar-links">
             <a
-              href="https://inc42.com/buzz/blockchain-startup-autify-raises-funding-to-build-products-for-ecommerce-sector/"
+              href="https://bit.ly/autify-network-funding"
               target="_blank"
               rel="noreferrer"
             >
