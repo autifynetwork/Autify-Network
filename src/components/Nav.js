@@ -1,18 +1,72 @@
-import React from "react";
-import logo from "../assets/white logo horizontal.png";
+import React, { useEffect, useState } from "react";
+// import logo from "../assets/white logo horizontal.png";
 import logo2 from "../assets/Content Pics/Logo/Logo 2.png";
+import externalLink from "../assets/External_link_font_awesome.png";
 import "./Nav.css";
-
+import { Wallet } from "../utils/near-wallet";
 import tele from "../assets/pngegg.png";
-import Intro from "./Intro";
+import Marquee from "react-fast-marquee";
 
 function Nav() {
+  const [scrollTopValue, setScrollTopValue] = useState(0);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrollTopValue(document.documentElement.scrollTop);
+      return () => {
+        window.removeEventListener("scroll");
+      };
+    });
+  }, []);
+
+  const [walletName, setWalletName] = useState("Near Wallet");
+  const [signedIn, setSignedIn] = useState(false);
+  const wallet = new Wallet({});
+
+  const connectToWallet = async () => {
+    if (!signedIn) {
+      let isSignedIn = await wallet.startUp();
+      console.log(isSignedIn);
+      if (isSignedIn) {
+        setSignedIn(true);
+        const accountId =
+          wallet.walletSelector.store.getState().accounts[0].accountId;
+        console.log(
+          wallet.walletSelector.store.getState().accounts[0].accountId
+        );
+        setWalletName(accountId);
+      } else {
+        wallet.signIn();
+      }
+    } else {
+      setWalletName("Near Wallet");
+      setSignedIn(false);
+    }
+  };
+
   return (
     <>
       <section id="landing">
+        <div className="hellobar">
+          <div className="hellobar-links">
+            <a
+              href="https://inc42.com/buzz/blockchain-startup-autify-raises-funding-to-build-products-for-ecommerce-sector/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Autify Network is Raising a $1.5 Million Funding Led by Loop
+              Ventures
+              <img
+                src={externalLink}
+                className="external-link"
+                alt="external-link"
+              />
+            </a>
+          </div>
+        </div>
         <nav
           className="navbar navbar-expand-lg navbar-toggleable-sm fixed-top"
           id="nav"
+          style={{ top: scrollTopValue > 80 && "0" }}
         >
           <a className="navbar-brand ml-lg-5 pl-xs-0 pl-lg-4" href="/">
             <img
@@ -23,6 +77,7 @@ function Nav() {
               id="logo_img"
             ></img>
           </a>
+
           <button
             className="navbar-toggler navbar-dark"
             type="button"
@@ -35,7 +90,7 @@ function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto ">
               <li className="nav-item active mx-4 my-3">
                 <a
                   href="/#team"
@@ -68,15 +123,21 @@ function Nav() {
                   Contact Us{" "}
                 </a>
               </li>
-              {/* <li className="nav-item mx-4 my-3">
+              <li className="nav-item mx-4 my-3">
                 <a
-                  href="/#team"
-                  data-target="#team"
+                  href="https://autifynetwork.docsend.com/view/3wf843i5z4rrcmc3"
+                  target="_blank"
+                  rel="noreferrer"
                   className="button current"
                   style={{ fontWeight: "500" }}
                 >
                   Lightpaper
                 </a>
+              </li>
+              {/* <li className="nav-item my-2 mx-2  ">
+                <button className="button1" onClick={connectToWallet}>
+                  {walletName}
+                </button>
               </li> */}
               <li className="nav-item mx-md-2 mx-3 my-3">
                 <a

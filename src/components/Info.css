@@ -312,8 +312,8 @@
   }
 
   #ok {
-    height: 12rem;
-    width: 10rem;
+    height: 13rem;
+    width: 10.5rem;
     border-radius: 37px;
     background: linear-gradient(45deg, #101432, #13183c);
     box-shadow: 9px -9px 18px #0d1028, -9px 9px 18px #171c48;
@@ -350,5 +350,30 @@
   }
   #button_toggler {
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .child2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  #ok {
+    height: 11rem;
+    width: 8.5rem;
+    padding: 0.5rem;
+  }
+
+  .card-font {
+    font-size: 0.8rem;
+  }
+
+  .img-main-card {
+    width: 100px;
   }
 }
