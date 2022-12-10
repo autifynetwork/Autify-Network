@@ -104,7 +104,7 @@ a:hover {
   flex: 0 1 300px;
   flex: 1 1 500px;
   text-align: left;
-  margin-top: 25%;
+  margin-top: 10%;
   margin-left: 7%;
   z-index: 1;
 }
@@ -193,7 +193,7 @@ a:hover {
     flex: 0 1 300px;
 
     text-align: left;
-    margin-top: 25%;
+    margin-top: 5%;
     margin-left: 7%;
   }
   #heading {
