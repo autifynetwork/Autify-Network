@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import { db } from "../firebase";
-import "../components/Footer.css";
 
 const ContactPage = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [subscribe, setSubscribe] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [subscribe, setSubscribe] = useState("");
 
   // function sendEmail(e) {
   //     e.preventDefault();
@@ -18,43 +16,43 @@ const ContactPage = () => {
   //     console.log(error.text);
   //     });
   //     }
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    db.collection("contacts")
-      .add({
-        name: name,
-        email: email,
-        message: message,
-        subject: subject,
-      })
-      .then(() => {
-        alert("Your message has been submitted👍");
-      })
-      .catch((error) => {
-        alert(error.message);
-      });
+  //   db.collection("contacts")
+  //     .add({
+  //       name: name,
+  //       email: email,
+  //       message: message,
+  //       subject: subject,
+  //     })
+  //     .then(() => {
+  //       alert("Your message has been submitted👍");
+  //     })
+  //     .catch((error) => {
+  //       alert(error.message);
+  //     });
 
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
-  const handleSubscribe = (e) => {
-    e.preventDefault();
+  //   setName("");
+  //   setEmail("");
+  //   setMessage("");
+  // };
+  // const handleSubscribe = (e) => {
+  //   e.preventDefault();
 
-    db.collection("contacts")
-      .add({
-        subscribe: subscribe,
-      })
-      .then(() => {
-        alert("Thannks for subscribing!");
-      })
-      .catch((error) => {
-        alert(error.message);
-      });
+  //   db.collection("contacts")
+  //     .add({
+  //       subscribe: subscribe,
+  //     })
+  //     .then(() => {
+  //       alert("Thannks for subscribing!");
+  //     })
+  //     .catch((error) => {
+  //       alert(error.message);
+  //     });
 
-    setSubscribe("");
-  };
+  //   setSubscribe("");
+  // };
   return (
     <>
       <div className="contact_form container" id="contact">

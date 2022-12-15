@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import logo from "../assets/white logo horizontal.png";
-import logo2 from "../assets/Content Pics/Logo/Logo 2.png";
-import externalLink from "../assets/External_link_font_awesome.png";
-import "./Nav.css";
+// import logo from "../public/assets/white logo horizontal.png";
+import logo2 from "../public/assets/Content Pics/Logo/Logo 2.png";
+import externalLink from "../public/assets/External_link_font_awesome.png";
 import { Wallet } from "../utils/near-wallet";
-import tele from "../assets/pngegg.png";
+import tele from "../public/assets/pngegg.png";
 import Marquee from "react-fast-marquee";
+import Image from "next/image";
+import Link from "next/link";
 
 function Nav() {
   const [scrollTopValue, setScrollTopValue] = useState(0);
@@ -55,7 +56,7 @@ function Nav() {
             >
               Autify Network is Raising a $1.5 Million Funding Led by Loop
               Ventures
-              <img
+              <Image
                 src={externalLink}
                 className="external-link"
                 alt="external-link"
@@ -66,16 +67,19 @@ function Nav() {
         <nav
           className="navbar navbar-expand-lg navbar-toggleable-sm fixed-top"
           id="nav"
-          style={{ top: scrollTopValue > 80 && "0" }}
+          style={{
+            top: scrollTopValue > 80 && "0",
+            backgroundColor: scrollTopValue > 80 ? "#121638" : "transparent",
+          }}
         >
           <a className="navbar-brand ml-lg-5 pl-xs-0 pl-lg-4" href="/">
-            <img
+            <Image
               src={logo2}
               alt=""
               style={{ width: "130px" }}
               className="img-fluid"
               id="logo_img"
-            ></img>
+            ></Image>
           </a>
 
           <button
@@ -114,14 +118,14 @@ function Nav() {
               </li>
 
               <li className="nav-item mx-4 my-3 current">
-                <a
+                <Link
                   className="button"
-                  href="/contact"
+                  href="/ContactPage"
                   // data-target="#footer_m"
                   style={{ fontWeight: "500" }}
                 >
                   Contact Us{" "}
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-4 my-3">
                 <a
@@ -191,13 +195,13 @@ function Nav() {
                   rel="noreferrer"
                   className="mx-2 "
                 >
-                  <img
+                  <Image
                     src={tele}
                     style={{ width: "24px" }}
                     alt="telegram"
                     className="img-fluid"
                     id="icons"
-                  ></img>
+                  ></Image>
                 </a>
               </li>
               {/* <li className="nav-item mx-4 my-3" id="ss">

@@ -1,40 +1,41 @@
 /* eslint-disable no-restricted-globals */
 import React, { Component } from "react";
-import "./Team.css";
-import team1 from "..//assets/Team Pictures web/Team New/Nabarun.jpg";
-import team3 from "..//assets/Team Pictures web/Sanjana.webp";
-import team4 from "..//assets/Team Pictures web/Team New/Reshmi Mitra.png";
-import team5 from "..//assets/Team Pictures web/Team New/Shreejata Neogi1.png";
-import team6 from "..//assets/Team Pictures web/Ashwathy Ramachandran.webp";
-import team7 from "..//assets/Team Pictures web/Viiny.png";
-import team8 from "..//assets/Team Pictures web/Shrey Chopra.webp";
-import team9 from "..//assets/Team Pictures web/Preetish Biswal.webp";
-import team10 from "..//assets/Team Pictures web/Team New/Wasim Bari.png";
-import team11 from "../assets/Team Pictures web/Team New/Kunal Goyal.png";
-// import team12 from "../assets/Team Pictures web/Team New/Soumitra Sen 1.png";
-import team12 from "../assets/Team Pictures web/Team New/Soumitra.jpg";
-import team13 from "../assets/Team Pictures web/Team New/Kundan Mishra.png";
-import team14 from "../assets/Team Pictures web/Team New/Keshava Varmaa S.png";
-import team15 from "../assets/Team Pictures web/Team New/Joel Dsouza 1.png";
-import team16 from "../assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
-import team17 from "../assets/Team Pictures web/Team New/DeepakKomma.jpg";
-import team18 from "../assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
-import team19 from "../assets/Team Pictures web/Team New/PankajArya.jpg";
-import team20 from "../assets/Team Pictures web/Team New/ParthParolekar.jpg";
+import Image from "next/image";
 
-import VijayPravin from "../assets/Advisors/Vijay Pravin.jpg";
-import AjeetKhurana from "../assets/Advisors/AjeetKhurana.jpg";
-import KeyurShah from "../assets/Advisors/Keyur.jpg";
-import MazZaman from "../assets/Advisors/MazZaman.jpg";
+import team1 from "../public/assets/Team Pictures web/Team New/Nabarun.jpg";
+import team3 from "../public/assets/Team Pictures web/Sanjana.webp";
+import team4 from "../public/assets/Team Pictures web/Team New/Reshmi Mitra.png";
+import team5 from "../public/assets/Team Pictures web/Team New/Shreejata Neogi1.png";
+import team6 from "../public/assets/Team Pictures web/Ashwathy Ramachandran.webp";
+import team7 from "../public/assets/Team Pictures web/Viiny.png";
+import team8 from "../public/assets/Team Pictures web/Shrey Chopra.webp";
+import team9 from "../public/assets/Team Pictures web/Preetish Biswal.webp";
+import team10 from "../public/assets/Team Pictures web/Team New/Wasim Bari.png";
+import team11 from "../public/assets/Team Pictures web/Team New/Kunal Goyal.png";
+// import team12 from "../public/assets/Team Pictures web/Team New/Soumitra Sen 1.png";
+import team12 from "../public/assets/Team Pictures web/Team New/Soumitra.jpg";
+import team13 from "../public/assets/Team Pictures web/Team New/Kundan Mishra.png";
+import team14 from "../public/assets/Team Pictures web/Team New/Keshava Varmaa S.png";
+import team15 from "../public/assets/Team Pictures web/Team New/Joel Dsouza 1.png";
+import team16 from "../public/assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
+import team17 from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg";
+import team18 from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
+import team19 from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
+import team20 from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
+
+import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
+import AjeetKhurana from "../public/assets/Advisors/AjeetKhurana.jpg";
+import KeyurShah from "../public/assets/Advisors/Keyur.jpg";
+import MazZaman from "../public/assets/Advisors/MazZaman.jpg";
 
 class Team extends Component {
   constructor(props) {
     super(props);
     // React Ref is created here
     this.navRef = React.createRef();
-    scroll({
-      behavior: "smooth",
-    });
+    // scroll({
+    //   behavior: "smooth",
+    // });
   }
   handleNav = (direction) => {
     if (direction === "left") {
@@ -71,17 +72,17 @@ class Team extends Component {
           <div className="row">
             <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#carouselControls"
                 role="button"
                 data-slide="prev"
                 onClick={() => this.handleNav("left")}
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
             </div>
             <div
@@ -94,7 +95,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team1}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -151,7 +152,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team17}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -196,11 +197,10 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://www.linkedin.com/in/deepak-codes/"
                         >
-                          {" "}
                           <img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
                             alt="linkedin"
-                          />{" "}
+                          ></img>
                         </a>
                       </div>
                     </div>
@@ -213,7 +213,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team19}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -271,7 +271,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team15}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -306,11 +306,10 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://www.linkedin.com/in/joel-d-souza-860a2916b/"
                         >
-                          {" "}
                           <img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
                             alt="linkedin"
-                          />{" "}
+                          ></img>
                         </a>
                       </div>
                     </div>
@@ -323,7 +322,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team18}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -381,7 +380,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col mx-auto">
-                        <img
+                        <Image
                           src={team12}
                           alt="ThumbnailImage"
                           className="img-raised  rounded-circle mx-auto"
@@ -439,7 +438,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team5}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -497,7 +496,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team20}
                           alt="ThumbnailImage"
                           className="img-raised  rounded-circle mx-auto"
@@ -552,17 +551,17 @@ class Team extends Component {
             </div>
             <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#carouselControls"
                 role="button"
                 data-slide="next"
                 onClick={() => this.handleNav("right")}
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
@@ -597,7 +596,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={VijayPravin}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -650,7 +649,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={KeyurShah}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -704,7 +703,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={MazZaman}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -758,7 +757,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={AjeetKhurana}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
