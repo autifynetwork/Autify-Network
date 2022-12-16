@@ -8,7 +8,7 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <>
-      <Image src={image} alt="banner" className="banner-image" />
+      <Image src={image} alt="banner" className="banner-image" priority />
       <div id="landing">
         <div className="parent1" style={{ borderStyle: "none" }} id="home">
           <div className="child2 mt-lg-5 pt-lg-5">
@@ -78,6 +78,7 @@ const Intro = () => {
               alt="alt"
               style={{ width: "100%", zIndex: "0" }}
               id="img1"
+              priority
             ></Image>
           </div>
         </div>
