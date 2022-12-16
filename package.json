@@ -24,7 +24,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.0.7",
+    "cross-env": "^7.0.3"
   }
 }

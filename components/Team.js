@@ -6,21 +6,14 @@ import twitterLogo from "../public/assets/twitterLogo.png";
 import linkedinLogo from "../public/assets/linkedinLogo.png";
 
 import team1 from "../public/assets/Team Pictures web/Team New/Nabarun.jpg";
-import team3 from "../public/assets/Team Pictures web/Sanjana.webp";
-import team4 from "../public/assets/Team Pictures web/Team New/Reshmi Mitra.png";
+
 import team5 from "../public/assets/Team Pictures web/Team New/Shreejata Neogi1.png";
-import team6 from "../public/assets/Team Pictures web/Ashwathy Ramachandran.webp";
-import team7 from "../public/assets/Team Pictures web/Viiny.png";
-import team8 from "../public/assets/Team Pictures web/Shrey Chopra.webp";
-import team9 from "../public/assets/Team Pictures web/Preetish Biswal.webp";
-import team10 from "../public/assets/Team Pictures web/Team New/Wasim Bari.png";
-import team11 from "../public/assets/Team Pictures web/Team New/Kunal Goyal.png";
+
 // import team12 from "../public/assets/Team Pictures web/Team New/Soumitra Sen 1.png";
 import team12 from "../public/assets/Team Pictures web/Team New/Soumitra.jpg";
-import team13 from "../public/assets/Team Pictures web/Team New/Kundan Mishra.png";
-import team14 from "../public/assets/Team Pictures web/Team New/Keshava Varmaa S.png";
+
 import team15 from "../public/assets/Team Pictures web/Team New/Joel Dsouza 1.png";
-import team16 from "../public/assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
+
 import team17 from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg";
 import team18 from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
 import team19 from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";

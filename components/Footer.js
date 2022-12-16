@@ -31,59 +31,6 @@ import near from "../public/assets/Investors/Near.png";
 import zilhive from "../public/assets/Investors/Zilhive.png";
 
 function Footer() {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [subscribe, setSubscribe] = useState("");
-
-  // function sendEmail(e) {
-  //     e.preventDefault();
-  //     emailjs.sendForm('service_xn2suce', 'template_khb69db', e.target, 'user_Rrrqmo6h0kHJPvhS4zkK0')
-  //     .then((res) => {
-  //     console.log(res.text);
-  //     }, (error) => {
-  //     console.log(error.text);
-  //     });
-  //     }
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   db.collection("contacts")
-  //     .add({
-  //       name: name,
-  //       email: email,
-  //       message: message,
-  //       subject: subject,
-  //     })
-  //     .then(() => {
-  //       alert("Your message has been submitted👍");
-  //     })
-  //     .catch((error) => {
-  //       alert(error.message);
-  //     });
-
-  //   setName("");
-  //   setEmail("");
-  //   setMessage("");
-  // };
-  // const handleSubscribe = (e) => {
-  //   e.preventDefault();
-
-  //   db.collection("contacts")
-  //     .add({
-  //       subscribe: subscribe,
-  //     })
-  //     .then(() => {
-  //       alert("Thannks for subscribing!");
-  //     })
-  //     .catch((error) => {
-  //       alert(error.message);
-  //     });
-
-  //   setSubscribe("");
-  // };
-
   return (
     <>
       <section className="container mx-auto">
