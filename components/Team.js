@@ -393,6 +393,7 @@ class Team extends Component {
                           id="team_img1"
                         />
                       </div>
+                      {/* commit */}
                     </div>
                     <h4 className="card-title mt-4" id="h4">
                       Soumitra Sen
