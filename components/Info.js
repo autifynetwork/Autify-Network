@@ -141,6 +141,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img25}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -165,6 +167,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img27}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -192,6 +196,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img26}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -216,6 +222,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img28}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -259,6 +267,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img30}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -286,6 +296,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img29}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -313,6 +325,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img31}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -337,6 +351,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img32}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -472,6 +488,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img33}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -499,6 +517,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img34}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -526,6 +546,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img35}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -550,6 +572,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img36}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -593,6 +617,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img40}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -620,6 +646,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img39}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -647,6 +675,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img38}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -671,6 +701,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img37}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -861,6 +893,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img43}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -885,6 +919,8 @@ class Info extends React.Component {
                             <div className="row">
                               <Image
                                 src={img44}
+                                height={50}
+                                width={50}
                                 alt="alt"
                                 className="mx-auto img-fluid img-main-card"
                                 id="neu_img"
@@ -958,6 +994,8 @@ class Info extends React.Component {
               >
                 <Image
                   src={img45}
+                  height={50}
+                  width={50}
                   alt="alt"
                   className="img-fluid rounded-Image ind_target"
                   id="neu_img"
@@ -970,6 +1008,8 @@ class Info extends React.Component {
               >
                 <Image
                   src={img46}
+                  height={50}
+                  width={50}
                   alt="alt"
                   className="img-fluid rounded-Image ind_target"
                   id="neu_img"
@@ -982,6 +1022,8 @@ class Info extends React.Component {
               >
                 <Image
                   src={img47}
+                  height={50}
+                  width={50}
                   alt="alt"
                   className="img-fluid rounded-Image ind_target"
                   id="neu_img"
@@ -1019,6 +1061,8 @@ class Info extends React.Component {
               >
                 <Image
                   src={img51}
+                  height={50}
+                  width={50}
                   alt="alt"
                   className="img-fluid rounded-Image ind_target"
                   id="neu_img"
