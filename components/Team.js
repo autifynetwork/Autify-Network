@@ -1,40 +1,37 @@
 /* eslint-disable no-restricted-globals */
 import React, { Component } from "react";
-import "./Team.css";
-import team1 from "..//assets/Team Pictures web/Team New/Nabarun.jpg";
-import team3 from "..//assets/Team Pictures web/Sanjana.webp";
-import team4 from "..//assets/Team Pictures web/Team New/Reshmi Mitra.png";
-import team5 from "..//assets/Team Pictures web/Team New/Shreejata Neogi1.png";
-import team6 from "..//assets/Team Pictures web/Ashwathy Ramachandran.webp";
-import team7 from "..//assets/Team Pictures web/Viiny.png";
-import team8 from "..//assets/Team Pictures web/Shrey Chopra.webp";
-import team9 from "..//assets/Team Pictures web/Preetish Biswal.webp";
-import team10 from "..//assets/Team Pictures web/Team New/Wasim Bari.png";
-import team11 from "../assets/Team Pictures web/Team New/Kunal Goyal.png";
-// import team12 from "../assets/Team Pictures web/Team New/Soumitra Sen 1.png";
-import team12 from "../assets/Team Pictures web/Team New/Soumitra.jpg";
-import team13 from "../assets/Team Pictures web/Team New/Kundan Mishra.png";
-import team14 from "../assets/Team Pictures web/Team New/Keshava Varmaa S.png";
-import team15 from "../assets/Team Pictures web/Team New/Joel Dsouza 1.png";
-import team16 from "../assets/Team Pictures web/Team New/Keshava Varmaa S 1.jpg";
-import team17 from "../assets/Team Pictures web/Team New/DeepakKomma.jpg";
-import team18 from "../assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
-import team19 from "../assets/Team Pictures web/Team New/PankajArya.jpg";
-import team20 from "../assets/Team Pictures web/Team New/ParthParolekar.jpg";
+import Image from "next/image";
 
-import VijayPravin from "../assets/Advisors/Vijay Pravin.jpg";
-import AjeetKhurana from "../assets/Advisors/AjeetKhurana.jpg";
-import KeyurShah from "../assets/Advisors/Keyur.jpg";
-import MazZaman from "../assets/Advisors/MazZaman.jpg";
+import twitterLogo from "../public/assets/twitterLogo.png";
+import linkedinLogo from "../public/assets/linkedinLogo.png";
+
+import team1 from "../public/assets/Team Pictures web/Team New/Nabarun.jpg";
+
+import team5 from "../public/assets/Team Pictures web/Team New/Shreejata Neogi1.png";
+
+// import team12 from "../public/assets/Team Pictures web/Team New/Soumitra Sen 1.png";
+import team12 from "../public/assets/Team Pictures web/Team New/Soumitra.jpg";
+
+import team15 from "../public/assets/Team Pictures web/Team New/Joel Dsouza 1.png";
+
+import team17 from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg";
+import team18 from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
+import team19 from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
+import team20 from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
+
+import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
+import AjeetKhurana from "../public/assets/Advisors/AjeetKhurana.jpg";
+import KeyurShah from "../public/assets/Advisors/Keyur.jpg";
+import MazZaman from "../public/assets/Advisors/MazZaman.jpg";
 
 class Team extends Component {
   constructor(props) {
     super(props);
     // React Ref is created here
     this.navRef = React.createRef();
-    scroll({
-      behavior: "smooth",
-    });
+    // scroll({
+    //   behavior: "smooth",
+    // });
   }
   handleNav = (direction) => {
     if (direction === "left") {
@@ -71,17 +68,17 @@ class Team extends Component {
           <div className="row">
             <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#carouselControls"
                 role="button"
                 data-slide="prev"
                 onClick={() => this.handleNav("left")}
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
             </div>
             <div
@@ -94,7 +91,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team1}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -125,20 +122,22 @@ class Team extends Component {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           href="https://www.linkedin.com/in/nabarunchakrabortty/"
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -151,7 +150,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team17}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -186,21 +185,22 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/0xdeepak_eth"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
                           rel="noreferrer"
                           href="https://www.linkedin.com/in/deepak-codes/"
                         >
-                          {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          />{" "}
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -213,7 +213,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team19}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -244,10 +244,11 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/Pnkj1985"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
@@ -255,10 +256,11 @@ class Team extends Component {
                           href="https://www.linkedin.com/in/pankajarya48"
                         >
                           {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -271,7 +273,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team15}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -297,20 +299,21 @@ class Team extends Component {
                         className="landing__foot__icons"
                         style={{ display: "block" }}
                       >
-                        <img
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                        <Image
                           alt="twitter"
-                        ></img>
+                          src={twitterLogo}
+                          style={{ width: "24px" }}
+                        ></Image>
                         <a
                           target="_blank"
                           rel="noreferrer"
                           href="https://www.linkedin.com/in/joel-d-souza-860a2916b/"
                         >
-                          {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          />{" "}
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -323,7 +326,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team18}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -354,10 +357,11 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/AnanditaBiswas9"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
@@ -365,10 +369,11 @@ class Team extends Component {
                           href="https://www.linkedin.com/in/anandita-biswas-363156176"
                         >
                           {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -381,7 +386,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col mx-auto">
-                        <img
+                        <Image
                           src={team12}
                           alt="ThumbnailImage"
                           className="img-raised  rounded-circle mx-auto"
@@ -412,10 +417,11 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/soumitrasen5"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
@@ -423,10 +429,11 @@ class Team extends Component {
                           href="https://www.linkedin.com/in/soumitra-sen-blockchain-content-writer-44a44b166/"
                         >
                           {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -439,7 +446,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team5}
                           alt="ThumbnailImage"
                           className="img-raised rounded-circle mx-auto"
@@ -470,10 +477,11 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/ShreejataNeogi"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
@@ -481,10 +489,11 @@ class Team extends Component {
                           href="https://www.linkedin.com/in/shreejata-neogi-0b37b1165/"
                         >
                           {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -497,7 +506,7 @@ class Team extends Component {
                   <div className="card card-plain">
                     <div className="row">
                       <div className="col">
-                        <img
+                        <Image
                           src={team20}
                           alt="ThumbnailImage"
                           className="img-raised  rounded-circle mx-auto"
@@ -528,10 +537,11 @@ class Team extends Component {
                           rel="noreferrer"
                           href="https://twitter.com/ParolekarParth"
                         >
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                          <Image
                             alt="twitter"
-                          ></img>
+                            src={twitterLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                         <a
                           target="_blank"
@@ -539,10 +549,11 @@ class Team extends Component {
                           href="https://www.linkedin.com/in/parth-parolekar-b7439a195"
                         >
                           {" "}
-                          <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                          <Image
                             alt="linkedin"
-                          ></img>
+                            src={linkedinLogo}
+                            style={{ width: "24px" }}
+                          ></Image>
                         </a>
                       </div>
                     </div>
@@ -552,17 +563,17 @@ class Team extends Component {
             </div>
             <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#carouselControls"
                 role="button"
                 data-slide="next"
                 onClick={() => this.handleNav("right")}
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
@@ -597,7 +608,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={VijayPravin}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -625,10 +636,11 @@ class Team extends Component {
                       rel="noreferrer"
                       href="https://twitter.com/VijayPravinM"
                     >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                      <Image
                         alt="twitter"
-                      ></img>
+                        src={twitterLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                     <a
                       target="_blank"
@@ -636,10 +648,11 @@ class Team extends Component {
                       href="https://de.linkedin.com/in/vijaypravin"
                     >
                       {" "}
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                      <Image
                         alt="linkedin"
-                      ></img>
+                        src={linkedinLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                   </div>
                 </div>
@@ -650,7 +663,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={KeyurShah}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -678,10 +691,11 @@ class Team extends Component {
                       rel="noreferrer"
                       href="https://twitter.com/keyur12392"
                     >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                      <Image
                         alt="twitter"
-                      ></img>
+                        src={twitterLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                     <a
                       target="_blank"
@@ -689,10 +703,11 @@ class Team extends Component {
                       href="https://in.linkedin.com/in/keyur-shah-551b31b3"
                     >
                       {" "}
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                      <Image
                         alt="linkedin"
-                      ></img>
+                        src={linkedinLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                   </div>
                 </div>
@@ -704,7 +719,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={MazZaman}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -732,10 +747,11 @@ class Team extends Component {
                       rel="noreferrer"
                       href="https://twitter.com/maz_zaman"
                     >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                      <Image
                         alt="twitter"
-                      ></img>
+                        src={twitterLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                     <a
                       target="_blank"
@@ -743,10 +759,11 @@ class Team extends Component {
                       href="https://au.linkedin.com/in/maz-zaman"
                     >
                       {" "}
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                      <Image
                         alt="linkedin"
-                      ></img>
+                        src={linkedinLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                   </div>
                 </div>
@@ -758,7 +775,7 @@ class Team extends Component {
               <div className="card card-plain">
                 <div className="row">
                   <div className="col">
-                    <img
+                    <Image
                       src={AjeetKhurana}
                       alt="ThumbnailImage"
                       className="img-raised  rounded-circle mx-auto"
@@ -786,10 +803,11 @@ class Team extends Component {
                       rel="noreferrer"
                       href="https://twitter.com/AjeetK"
                     >
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgBtVbdbcIwED6bDMAGDRsQfh54ajpBuwGwARuQTEI6QdsJSl9BkHSDdILmHUH6HXKkNroEp5BPMpZP+Pt857tzFBlst1u/0+ks8zzvY9mlf0IptT6dTtFoNHo+r/lnt9sFmJZ0W4TD4TBQIJ9hsaIWAE8eNFyaUkvgkGvE3KeWwPepqV10RQGELa3bhZOt8R8fl6i01j2YIozMzH+5cMm5IOCb0AUCfwriXtkYx3EXl8qZOKNfaV4VIiYJMc/L3kA4kDZ4nscefFKphkQBkMx4hkgEAY+FOCyYM2RGJu2BBy4J6S6GiMkOh8N8MpmkZInNZtOHeFy2V3kQNiE/E2ntinbJyAVCDYFQPloLcAYhdKv9fn9H9gK+tYBBNhgMvsgC3CxxKLepwMJ02VqY7KkM6aVWsYTICxdRFTlO/l5H4Ai2FOMVG1NkRoIwfUgbIbwwlVv7OIl1UIiA4M1xnISrlL1AbbgQvcd4su3CLPBNVzyRl8APTkItgTuCPh6PIbWHSI/H4zXJbflaBPxloYoVP/5waVpVkZbIwJEgCYIi+34ATGDGNz/K05IAAAAASUVORK5CYII="
+                      <Image
                         alt="twitter"
-                      ></img>
+                        src={twitterLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                     <a
                       target="_blank"
@@ -797,10 +815,11 @@ class Team extends Component {
                       href="https://in.linkedin.com/in/ajeetkhurana"
                     >
                       {" "}
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFXSURBVHgB7VXdUYQwEE4CBWgHlCC/M7xhB1rB2cnlKtAO7uxAKxCf+ZES7ECemQH89gQHudwxBm588ZuBzH6EJN/uZpezDkmSRIZhrNu2vYJ5wTTBOY+bptl5nve4t+mVZZnEsGbLYuO6ruRY/A7Glp0BUHItIGml+PYAPsIo2QyQy0lBOyQRgwL+s3s7z/O3Li46KMWYwcnHAdYOOP1rKkgLqrY49TO5CaPFZuDARUtDqEikF++fI1yJRwohLsmu65pi9qRaS+WiSVRVZYdh+N7bQRAUGG6REC9wacSmFExhuPgQULIZc1oK0jS9QQLQ5SxxYtmXBdM0C1yuH3O1FMD39+wrfS1sJHvetu3yYC7TwCh1rVNztTb4Df43+PsNqBZ9sHkV8ySo4RTsTEA6x0J1vRfETvi+H7OZrfEI9iXkuxxT84ekVdeLdUG1qUApkY7jvBLxCYWygiQ7y9ArAAAAAElFTkSuQmCC"
+                      <Image
                         alt="linkedin"
-                      ></img>
+                        src={linkedinLogo}
+                        style={{ width: "24px" }}
+                      ></Image>
                     </a>
                   </div>
                 </div>

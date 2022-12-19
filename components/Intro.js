@@ -1,13 +1,14 @@
 import React from "react";
-import hero from "..//assets/Web Graphic1.webp";
+import hero from "../public/assets/Web Graphic1.webp";
 import Typewriter from "typewriter-effect";
-import "./Nav.css";
-import image from "../assets/08-scaled-e1614740007997.webp";
+// import image from "../assets/08-scaled-e1614740007997.webp";
+import image from "../public/assets/08-scaled-e1614740007997.webp";
+import Image from "next/image";
 
 const Intro = () => {
   return (
     <>
-      <img src={image} alt="banner" className="banner-image" />
+      <Image src={image} alt="banner" className="banner-image" priority />
       <div id="landing">
         <div className="parent1" style={{ borderStyle: "none" }} id="home">
           <div className="child2 mt-lg-5 pt-lg-5">
@@ -71,13 +72,14 @@ const Intro = () => {
             </div>
           </div>
           <div className="child1" id="child">
-            <img
+            <Image
               src={hero}
               className="img-fluid img1"
               alt="alt"
               style={{ width: "100%", zIndex: "0" }}
               id="img1"
-            ></img>
+              priority
+            ></Image>
           </div>
         </div>
       </div>

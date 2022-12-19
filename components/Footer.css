@@ -126,7 +126,7 @@ a:active {
   margin-top: 10%;
 }
 #hh {
-  background: url(..//assets/08-scaled-e1614740007997.webp);
+  background: url(../public/assets/08-scaled-e1614740007997.webp);
   border-radius: 14px;
 }
 .form {
@@ -138,6 +138,7 @@ a:active {
 .auty_img {
   margin-top: 20px;
   width: 200px;
+  height: auto;
 }
 
 .auty_token_grid {
@@ -175,6 +176,7 @@ a:active {
 }
 .partner_img {
   width: 180px;
+  height: auto;
 }
 .partners_autify {
   margin-bottom: 8rem;
