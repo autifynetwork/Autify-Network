@@ -31,22 +31,14 @@ const TeamCard = ({ member }) => {
           </div>
           <div className="card-footer justify-content-center">
             <div className="landing__foot__icons" style={{ display: "block" }}>
-              <a
-                href="https://twitter.com/Its_Nabarun"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={member.twitter} target="_blank" rel="noreferrer">
                 <Image
                   alt="twitter"
                   src={twitterLogo}
                   style={{ width: "24px" }}
                 ></Image>
               </a>
-              <a
-                href="https://www.linkedin.com/in/nabarunchakrabortty/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={member.linkedIn} target="_blank" rel="noreferrer">
                 <Image
                   alt="linkedin"
                   src={linkedinLogo}
