@@ -23,6 +23,7 @@ import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
 import AjeetKhurana from "../public/assets/Advisors/AjeetKhurana.jpg";
 import KeyurShah from "../public/assets/Advisors/Keyur.jpg";
 import MazZaman from "../public/assets/Advisors/MazZaman.jpg";
+
 import TeamCard from "./TeamCard";
 
 const teamDB = [
@@ -31,48 +32,100 @@ const teamDB = [
     position: "Founder & CEO",
     id: 1,
     photo: team1,
+    twitter: "https://twitter.com/Its_Nabarun",
+    linkedIn: "https://www.linkedin.com/in/nabarunchakrabortty/",
   },
   {
     name: "Deepak Komma",
     position: "Tech Lead",
     id: 2,
     photo: team17,
+    twitter: "https://twitter.com/0xdeepak_eth",
+    linkedIn: "https://www.linkedin.com/in/deepak-codes/",
   },
   {
     name: "Pankaj Arya",
     position: "Supply Chain Lead",
     id: 3,
     photo: team19,
+    twitter: "https://twitter.com/Pnkj1985",
+    linkedIn: "https://www.linkedin.com/in/pankajarya48",
   },
   {
     name: "Joel Dsouza",
     position: "Operations and Growth Lead",
     id: 4,
     photo: team15,
+    twitter: "",
+    linkedIn: "https://www.linkedin.com/in/joel-d-souza-860a2916b/",
   },
   {
     name: "Anandita Biswas",
     position: "HR Manager",
     id: 5,
     photo: team18,
+    twitter: "https://twitter.com/AnanditaBiswas9",
+    linkedIn: "https://www.linkedin.com/in/anandita-biswas-363156176",
   },
   {
     name: "Soumitra Sen",
     position: "Social Media Manager & Content Lead",
     id: 6,
     photo: team12,
+    twitter: "https://twitter.com/soumitrasen5",
+    linkedIn:
+      "https://www.linkedin.com/in/soumitra-sen-blockchain-content-writer-44a44b166/",
   },
   {
     name: "Shreejata Neogi",
     position: "Graphics & video lead",
     id: 7,
     photo: team5,
+    twitter: "https://twitter.com/ShreejataNeogi",
+    linkedIn: "https://www.linkedin.com/in/shreejata-neogi-0b37b1165/",
   },
   {
     name: "Parth Parolekar",
     position: "Frontend Developer",
     id: 8,
     photo: team20,
+    twitter: "https://twitter.com/ParolekarParth",
+    linkedIn: "https://www.linkedin.com/in/parth-parolekar-b7439a195",
+  },
+];
+
+const advisorsDB = [
+  {
+    name: "Vijay Pravin",
+    position: "Founder & CEO BitsCrunch",
+    id: 1,
+    photo: VijayPravin,
+    twitter: "https://twitter.com/VijayPravinM",
+    linkedIn: "https://de.linkedin.com/in/vijaypravin",
+  },
+  {
+    name: "Keyur Shah",
+    position: "Ex-CFO Polygon",
+    id: 2,
+    photo: KeyurShah,
+    twitter: "https://twitter.com/keyur12392",
+    linkedIn: "https://in.linkedin.com/in/keyur-shah-551b31b3",
+  },
+  {
+    name: "Maz Zaman",
+    position: "CEO Loop Ventures",
+    id: 3,
+    photo: MazZaman,
+    twitter: "https://twitter.com/maz_zaman",
+    linkedIn: "https://au.linkedin.com/in/maz-zaman",
+  },
+  {
+    name: "Ajeet Khurana",
+    position: "Founder Reflexical",
+    id: 4,
+    photo: AjeetKhurana,
+    twitter: "https://twitter.com/AjeetK",
+    linkedIn: "https://in.linkedin.com/in/ajeetkhurana",
   },
 ];
 
@@ -124,237 +177,19 @@ const Team = () => {
           {showMembers === showMembersDefault ? "More" : "Less"}
         </button>
       </div>
-      <div>
-        <h1
-          className="text-center"
-          id="h22"
-          style={{ marginTop: "10rem", color: "white" }}
-        >
-          Advisors
-        </h1>
-        <div className="advisors">
-          <div className="team-player mx-auto">
-            <div className="card card-plain">
-              <div className="row">
-                <div className="col">
-                  <Image
-                    src={VijayPravin}
-                    alt="ThumbnailImage"
-                    className="img-raised  rounded-circle mx-auto"
-                    id="team_img1"
-                  />
-                </div>
-              </div>
-              <h4 className="card-title mt-4" id="h4">
-                Vijay Pravin
-                <br />
-                <small className="card-description text-muted"></small>
-              </h4>
-              <div className="card-body">
-                <p className="card-description" style={{ color: "white" }}>
-                  Founder & CEO BitsCrunch
-                </p>
-              </div>
-              <div className="card-footer justify-content-center">
-                <div
-                  className="landing__foot__icons"
-                  style={{ display: "block" }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/VijayPravinM"
-                  >
-                    <Image
-                      alt="twitter"
-                      src={twitterLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://de.linkedin.com/in/vijaypravin"
-                  >
-                    {" "}
-                    <Image
-                      alt="linkedin"
-                      src={linkedinLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                </div>
-              </div>
-            </div>
+
+      <div className="section text-center mx-lg-5 px-lg-5 px-2 mb-lg-5 pb-lg-5">
+        <h2 className="title mt-5 mb-3 pt-5 mb-3" id="meet_the_team_h2">
+          {" "}
+          <strong style={{ color: "white" }}> Advisors</strong>
+        </h2>
+
+        <div className="row">
+          <div className="col team-container">
+            {advisorsDB.map((teamMember) => (
+              <TeamCard member={teamMember} />
+            ))}
           </div>
-          {/* <div className="col "> */}
-          <div className="team-player mx-auto">
-            <div className="card card-plain">
-              <div className="row">
-                <div className="col">
-                  <Image
-                    src={KeyurShah}
-                    alt="ThumbnailImage"
-                    className="img-raised  rounded-circle mx-auto"
-                    id="team_img1"
-                  />
-                </div>
-              </div>
-              <h4 className="card-title mt-4" id="h4">
-                Keyur Shah
-                <br />
-                <small className="card-description text-muted"></small>
-              </h4>
-              <div className="card-body">
-                <p className="card-description" style={{ color: "white" }}>
-                  Ex-CFO Polygon
-                </p>
-              </div>
-              <div className="card-footer justify-content-center">
-                <div
-                  className="landing__foot__icons"
-                  style={{ display: "block" }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/keyur12392"
-                  >
-                    <Image
-                      alt="twitter"
-                      src={twitterLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://in.linkedin.com/in/keyur-shah-551b31b3"
-                  >
-                    {" "}
-                    <Image
-                      alt="linkedin"
-                      src={linkedinLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* </div> */}
-          {/* <div className="col "> */}
-          <div className="team-player mx-auto">
-            <div className="card card-plain">
-              <div className="row">
-                <div className="col">
-                  <Image
-                    src={MazZaman}
-                    alt="ThumbnailImage"
-                    className="img-raised  rounded-circle mx-auto"
-                    id="team_img1"
-                  />
-                </div>
-              </div>
-              <h4 className="card-title mt-4" id="h4">
-                Maz Zaman
-                <br />
-                <small className="card-description text-muted"></small>
-              </h4>
-              <div className="card-body">
-                <p className="card-description" style={{ color: "white" }}>
-                  CEO Loop Ventures
-                </p>
-              </div>
-              <div className="card-footer justify-content-center">
-                <div
-                  className="landing__foot__icons"
-                  style={{ display: "block" }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/maz_zaman"
-                  >
-                    <Image
-                      alt="twitter"
-                      src={twitterLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://au.linkedin.com/in/maz-zaman"
-                  >
-                    {" "}
-                    <Image
-                      alt="linkedin"
-                      src={linkedinLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* </div> */}
-          {/* <div className="col "> */}
-          <div className="team-player mx-auto">
-            <div className="card card-plain">
-              <div className="row">
-                <div className="col">
-                  <Image
-                    src={AjeetKhurana}
-                    alt="ThumbnailImage"
-                    className="img-raised  rounded-circle mx-auto"
-                    id="team_img1"
-                  />
-                </div>
-              </div>
-              <h4 className="card-title mt-4" id="h4">
-                Ajeet Khurana
-                <br />
-                <small className="card-description text-muted"></small>
-              </h4>
-              <div className="card-body">
-                <p className="card-description" style={{ color: "white" }}>
-                  Founder Reflexical
-                </p>
-              </div>
-              <div className="card-footer justify-content-center">
-                <div
-                  className="landing__foot__icons"
-                  style={{ display: "block" }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://twitter.com/AjeetK"
-                  >
-                    <Image
-                      alt="twitter"
-                      src={twitterLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://in.linkedin.com/in/ajeetkhurana"
-                  >
-                    {" "}
-                    <Image
-                      alt="linkedin"
-                      src={linkedinLogo}
-                      style={{ width: "24px" }}
-                    ></Image>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* </div> */}
         </div>
       </div>
     </section>

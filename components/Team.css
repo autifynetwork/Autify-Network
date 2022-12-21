@@ -14,17 +14,17 @@
 }
 
 .card-plain {
+  width: 230px;
+  height: 320px;
   margin: 0 auto;
 }
 
 .team-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100vw;
   row-gap: 40px;
+  text-align: center;
 }
 
 #team_img {
@@ -32,8 +32,8 @@
   margin-left: 0%;
 }
 #team_img1 {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   margin-left: 0%;
   margin-top: 5%;
@@ -48,33 +48,53 @@
   background-color: #a25edc;
 }
 
-.advisors {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* column-gap: 1rem; */
-  row-gap: 2rem;
-  margin: 8rem 0;
-  padding: 0 3rem;
-}
+@media screen and (max-width: 1200px) {
+  #team_img1 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
 
-@media screen and (max-width: 1400px) {
-  .advisors {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0rem;
+  .card-plain {
+    width: 180px;
+    height: 320px;
+    margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #team_img1 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+
+  .card-plain {
+    width: 160px;
+    height: 320px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 800px) {
   #team_img1 {
     margin-left: 0%;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
   }
+
+  .team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    row-gap: 40px;
+  }
+
   #phone {
     margin: 0;
     padding: auto;
@@ -82,11 +102,13 @@
   .col {
     flex-basis: 0;
   }
+
   .card-plain {
-    height: 300px;
-    width: 145px;
+    height: 320px;
+    width: 280px;
     margin: 0 auto;
   }
+
   #meet_the_team_h2 {
     text-align: center;
     margin-left: 4%;
@@ -109,14 +131,46 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  #team_img1 {
+    margin-left: 0%;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .card-plain {
+    height: 280px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    row-gap: 40px;
+  }
+
+  #team_img1 {
+    margin-left: 0%;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  .card-plain {
+    height: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 800px) {
   #meet_the_team_h4 {
     text-align: center;
-  }
-  .card-plain {
-    height: 420px;
-    width: 280px;
-    margin: 0 auto;
   }
 }
 #meet_the_team_h4 {
