@@ -3,6 +3,7 @@ import Info from "../components/Info";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import News from "../components/News";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Intro />
       <Info />
       <Team />
+      <News />
       <Footer />
     </>
   );

@@ -147,7 +147,7 @@ const Team = () => {
       id="team"
     >
       <div className="section text-center mx-lg-5 px-lg-5 px-2 mb-lg-5 pb-lg-5">
-        <h2 className="title mt-5 mb-3 pt-5 mb-3" id="meet_the_team_h2">
+        <h2 className="title mt-5 mb-3 pt-5 mb-3" id="h22">
           {" "}
           <strong style={{ color: "white" }}>
             {" "}
@@ -179,7 +179,7 @@ const Team = () => {
       </div>
 
       <div className="section text-center mx-lg-5 px-lg-5 px-2 mb-lg-5 pb-lg-5">
-        <h2 className="title mt-5 mb-3 pt-5 mb-3" id="meet_the_team_h2">
+        <h2 className="title mt-5 mb-3 pt-5 mb-3" id="h22">
           {" "}
           <strong style={{ color: "white" }}> Advisors</strong>
         </h2>
