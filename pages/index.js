@@ -10,8 +10,7 @@ const Home = () => {
     <>
       <Head>
         <title>
-          Blockchain solution for global supply chain, retail, insurance,
-          rewards | Autify Network.
+          Blockchain Solutions for Supply-chain & Commerce | Autify Network
         </title>
       </Head>
       <Intro />
