@@ -7,11 +7,14 @@ const NewsCard = ({ news }) => {
     <a target="_blank" href={news.link} className="news-link">
       <div className="news-card">
         <h2 className="news-title">{news.title}</h2>
-        <Image
-          src={externalLink}
-          className="external-link"
-          alt="external-link"
-        />
+        <div className="read-more">
+          <Image
+            src={externalLink}
+            className="external-link"
+            alt="external-link"
+          />
+          <span>Read More</span>
+        </div>
       </div>
     </a>
   );
