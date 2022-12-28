@@ -59,7 +59,7 @@ const News = () => {
   return (
     <div className="section text-center mb-lg-5">
       <h2 className="title mt-5 mb-3 pt-5 mb-3" id="h22">
-        <strong style={{ color: "white" }}>Featured In</strong>
+        <strong style={{ color: "white" }}>News</strong>
       </h2>
       <Marquee gradient={false} speed={100}>
         {newsDB.map((news) => (
