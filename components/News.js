@@ -6,53 +6,54 @@ const News = () => {
   const newsDB = [
     {
       title:
-        "Autify Network Raises Funding From Loop Ventures, Near Protocol & Others To Build Products For Ecommerce Sector",
+        "Autify Network raises $1.5 million in funding led by Loop Ventures & others",
       link: "https://inc42.com/buzz/blockchain-startup-autify-raises-funding-to-build-products-for-ecommerce-sector/",
     },
     {
       title:
-        "Vijay Pravin Maharajan - CEO & founder of bitsCrunch has joined Autify Network as an advisor",
+        "Autify Network onboards Vijay Pravin Maharajan - CEO & founder of bitsCrunch as an advisor",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7006481545557409793",
     },
     {
-      title: "Autify Network has been awarded a grant from Biconomy",
+      title: "Autify Network partnered with Biconomy and was awarded a grant",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6993052434843537408",
     },
     {
-      title: "Autify Network Gets Selected in Celo Camp Batch 6",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:6985857885108912128",
+      title: "Autify Network graduated from Celo Camp Batch 6",
+      link: "https://medium.com/celoorg/celo-camp-batch-6-teams-announced-with-new-founders-support-from-coinbase-cloud-e3c52087021b",
     },
     {
       title:
-        "Autify Network X  Loop Ventures: A Big Step in bringing transparency to the supply chain",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:6976508917249953792",
+        "Autify Network partnered with Loop Ventures to bring transparency to the supply chain",
+      link: "https://www.loop.markets/project-spotlight-autify/",
     },
     {
-      title: "Autify Network has been awarded a grant from Filecoin Foundation",
+      title:
+        "Autify Network integrated with Filecoin/IPFS and was awarded a grant by Filecoin Foundation",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6973287559229583360",
     },
     {
-      title: "Autify Network has joined the ZILHive incubation program",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:6957548101679108096",
+      title:
+        "Autify Network graduated from the Stellar community fund Bootcamp",
+      link: "https://communityfund.stellar.org/projects/autify-network",
     },
     {
       title:
-        "Autify Network is Google for Startup's 1st Indian edition of the Startup School initiative",
+        "Autify Network was selected by Google for Startup's 1st Indian edition of the Startup School initiative",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6956097624013721600",
     },
     {
       title:
-        "Super excited to announce that Autify Network has received a grant from Near Inc.",
+        "Autify Network partnered with NEAR and was awarded a grant by NEAR Foundation",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6933274486532169728",
     },
     {
       title:
-        "Autify Network gets selected in India Blockchain Accelerator— a joint initiative of the Government of Telangana, CoinSwitch, and Lumos Labs",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:6930484263490392064",
+        "Autify Network graduated from the India Blockchain Accelerator by the Government of Telangana",
+      link: "https://www.financialexpress.com/blockchain/the-india-blockchain-accelerator-shortlists-14-early-stage-startups-for-its-mentorship-and-financing-program/2519343/",
     },
     {
-      title:
-        "Autify Network onboards Ascent Advisors & Keyur Shah - former Finance Lead at Polygon as Advisor",
+      title: "Autify Network onboards Keyur Shah, EX-CFO Polygon as an Advisor",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6920409884823863298",
     },
   ];
