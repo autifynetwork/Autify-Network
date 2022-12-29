@@ -3,6 +3,7 @@
 @import "../components/Info.css";
 @import "../components/Nav.css";
 @import "../components/Team.css";
+@import "../components/News.css";
 
 body {
   margin: 0;
