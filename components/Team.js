@@ -5,19 +5,17 @@ import Image from "next/image";
 import twitterLogo from "../public/assets/twitterLogo.png";
 import linkedinLogo from "../public/assets/linkedinLogo.png";
 
-import team1 from "../public/assets/Team Pictures web/Team New/Nabarun.jpg";
-
-import team5 from "../public/assets/Team Pictures web/Team New/Shreejata Neogi1.png";
-
-// import team12 from "../public/assets/Team Pictures web/Team New/Soumitra Sen 1.png";
-import team12 from "../public/assets/Team Pictures web/Team New/Soumitra.jpg";
-
-import team15 from "../public/assets/Team Pictures web/Team New/Joel Dsouza 1.png";
-
-import team17 from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg";
-import team18 from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
-import team19 from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
-import team20 from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
+import Nabarun from "../public/assets/Team Pictures web/Team New/Nabarun.jpg";
+import Shreejata from "../public/assets/Team Pictures web/Team New/Shreejata Neogi1.png";
+import Soumitra from "../public/assets/Team Pictures web/Team New/Soumitra.jpg";
+import Joel from "../public/assets/Team Pictures web/Team New/Joel Dsouza 1.png";
+import Deepak from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg";
+import Anandita from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
+import Pankaj from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
+import Parth from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
+import Shalini from "../public/assets/Team Pictures web/Team New/Shalini.jpg";
+import Supriyo from "../public/assets/Team Pictures web/Team New/Supriyo.jpg";
+import Venkatesh from "../public/assets/Team Pictures web/Team New/Venkatesh.jpg";
 
 import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
 import AjeetKhurana from "../public/assets/Advisors/AjeetKhurana.jpg";
@@ -31,7 +29,7 @@ const teamDB = [
     name: "Nabarun Chakraborty",
     position: "Founder & CEO",
     id: 1,
-    photo: team1,
+    photo: Nabarun,
     twitter: "https://twitter.com/Its_Nabarun",
     linkedIn: "https://www.linkedin.com/in/nabarunchakrabortty/",
   },
@@ -39,7 +37,7 @@ const teamDB = [
     name: "Deepak Komma",
     position: "Tech Lead",
     id: 2,
-    photo: team17,
+    photo: Deepak,
     twitter: "https://twitter.com/0xdeepak_eth",
     linkedIn: "https://www.linkedin.com/in/deepak-codes/",
   },
@@ -47,7 +45,7 @@ const teamDB = [
     name: "Pankaj Arya",
     position: "Supply Chain Lead",
     id: 3,
-    photo: team19,
+    photo: Pankaj,
     twitter: "https://twitter.com/Pnkj1985",
     linkedIn: "https://www.linkedin.com/in/pankajarya48",
   },
@@ -55,7 +53,7 @@ const teamDB = [
     name: "Joel Dsouza",
     position: "Operations and Growth Lead",
     id: 4,
-    photo: team15,
+    photo: Joel,
     twitter: "",
     linkedIn: "https://www.linkedin.com/in/joel-d-souza-860a2916b/",
   },
@@ -63,15 +61,23 @@ const teamDB = [
     name: "Anandita Biswas",
     position: "HR Manager",
     id: 5,
-    photo: team18,
+    photo: Anandita,
     twitter: "https://twitter.com/AnanditaBiswas9",
     linkedIn: "https://www.linkedin.com/in/anandita-biswas-363156176",
   },
   {
+    name: "Shalini Raja",
+    position: "Digital Marketing Manager",
+    id: 6,
+    photo: Shalini,
+    twitter: "",
+    linkedIn: "https://www.linkedin.com/in/shalini-raja-625391a7",
+  },
+  {
     name: "Soumitra Sen",
     position: "Social Media Manager & Content Lead",
-    id: 6,
-    photo: team12,
+    id: 7,
+    photo: Soumitra,
     twitter: "https://twitter.com/soumitrasen5",
     linkedIn:
       "https://www.linkedin.com/in/soumitra-sen-blockchain-content-writer-44a44b166/",
@@ -79,16 +85,32 @@ const teamDB = [
   {
     name: "Shreejata Neogi",
     position: "Graphics & video lead",
-    id: 7,
-    photo: team5,
+    id: 8,
+    photo: Shreejata,
     twitter: "https://twitter.com/ShreejataNeogi",
     linkedIn: "https://www.linkedin.com/in/shreejata-neogi-0b37b1165/",
   },
   {
+    name: "Venkatesh Prasad",
+    position: "UI/UX Developer",
+    id: 9,
+    photo: Venkatesh,
+    twitter: "",
+    linkedIn: "https://in.linkedin.com/in/venkatesh-prasad-g",
+  },
+  {
+    name: "Supriyo Sarkar",
+    position: "Full Stack Developer",
+    id: 10,
+    photo: Supriyo,
+    twitter: "",
+    linkedIn: "",
+  },
+  {
     name: "Parth Parolekar",
     position: "Frontend Developer",
-    id: 8,
-    photo: team20,
+    id: 11,
+    photo: Parth,
     twitter: "https://twitter.com/ParolekarParth",
     linkedIn: "https://www.linkedin.com/in/parth-parolekar-b7439a195",
   },
