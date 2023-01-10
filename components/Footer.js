@@ -257,7 +257,7 @@ function Footer() {
           style={{ placeItems: "center", marginRight: "40%" }}
         >
           <a href="#0" className="button11 current">
-            <i className="mdi mdi-copyright"></i>2022 Autify Network. All Rights
+            <i className="mdi mdi-copyright"></i>2023 Autify Network. All Rights
             Reserved.
           </a>
         </div>
