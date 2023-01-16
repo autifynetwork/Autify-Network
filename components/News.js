@@ -56,6 +56,11 @@ const News = () => {
       title: "Autify Network onboards Keyur Shah, EX-CFO Polygon as an Advisor",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:6920409884823863298",
     },
+    {
+      title:
+        "Blockchain against counterfeits: Autify’s real-time solution to fake goods",
+      link: "https://yourstory.com/the-decrypting-story/autify-blockchain-supply-chain-counterfeit-fake-goods",
+    },
   ];
   return (
     <div className="section text-center mb-lg-5">
