@@ -14,7 +14,7 @@ import Anandita from "../public/assets/Team Pictures web/Team New/AnanditaBiswas
 import Pankaj from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
 import Parth from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
 import Shalini from "../public/assets/Team Pictures web/Team New/Shalini.jpg";
-import Supriyo from "../public/assets/Team Pictures web/Team New/Supriyo.jpg";
+import Supriyo from "../public/assets/Team Pictures web/Team New/Supriyo2.jpg";
 import Venkatesh from "../public/assets/Team Pictures web/Team New/Venkatesh.jpg";
 
 import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
@@ -34,49 +34,57 @@ const teamDB = [
     linkedIn: "https://www.linkedin.com/in/nabarunchakrabortty/",
   },
   {
-    name: "Deepak Komma",
-    position: "Tech Lead",
-    id: 2,
-    photo: Deepak,
-    twitter: "https://twitter.com/0xdeepak_eth",
-    linkedIn: "https://www.linkedin.com/in/deepak-codes/",
-  },
-  {
     name: "Pankaj Arya",
     position: "Supply Chain Lead",
-    id: 3,
+    id: 2,
     photo: Pankaj,
     twitter: "https://twitter.com/Pnkj1985",
     linkedIn: "https://www.linkedin.com/in/pankajarya48",
   },
   {
-    name: "Joel Dsouza",
-    position: "Operations and Growth Lead",
-    id: 4,
-    photo: Joel,
-    twitter: "",
-    linkedIn: "https://www.linkedin.com/in/joel-d-souza-860a2916b/",
+    name: "Deepak Komma",
+    position: "Lead Engineer",
+    id: 3,
+    photo: Deepak,
+    twitter: "https://twitter.com/0xdeepak_eth",
+    linkedIn: "https://www.linkedin.com/in/deepak-codes/",
   },
   {
-    name: "Anandita Biswas",
-    position: "HR Manager",
+    name: "Venkatesh Prasad",
+    position: "UI/UX Developer",
+    id: 4,
+    photo: Venkatesh,
+    twitter: "https://twitter.com/venkatesh1662",
+    linkedIn: "https://in.linkedin.com/in/venkatesh-prasad-g",
+  },
+  {
+    name: "Supriyo Sarkar",
+    position: "Full Stack Developer",
     id: 5,
-    photo: Anandita,
-    twitter: "https://twitter.com/AnanditaBiswas9",
-    linkedIn: "https://www.linkedin.com/in/anandita-biswas-363156176",
+    photo: Supriyo,
+    twitter: "https://twitter.com/Spantheslayer",
+    linkedIn: "https://www.linkedin.com/in/supriyosarkar/",
+  },
+  {
+    name: "Parth Parolekar",
+    position: "Frontend Developer",
+    id: 6,
+    photo: Parth,
+    twitter: "https://twitter.com/ParolekarParth",
+    linkedIn: "https://www.linkedin.com/in/parth-parolekar-b7439a195",
   },
   {
     name: "Shalini Raja",
     position: "Digital Marketing Manager",
-    id: 6,
+    id: 7,
     photo: Shalini,
-    twitter: "",
+    twitter: "https://twitter.com/Shalini202203",
     linkedIn: "https://www.linkedin.com/in/shalini-raja-625391a7",
   },
   {
     name: "Soumitra Sen",
-    position: "Social Media Manager & Content Lead",
-    id: 7,
+    position: "Social Media & Content Manager",
+    id: 8,
     photo: Soumitra,
     twitter: "https://twitter.com/soumitrasen5",
     linkedIn:
@@ -84,35 +92,19 @@ const teamDB = [
   },
   {
     name: "Shreejata Neogi",
-    position: "Graphics & video lead",
-    id: 8,
+    position: "Graphics & Video Manager",
+    id: 9,
     photo: Shreejata,
     twitter: "https://twitter.com/ShreejataNeogi",
     linkedIn: "https://www.linkedin.com/in/shreejata-neogi-0b37b1165/",
   },
   {
-    name: "Venkatesh Prasad",
-    position: "UI/UX Developer",
-    id: 9,
-    photo: Venkatesh,
-    twitter: "",
-    linkedIn: "https://in.linkedin.com/in/venkatesh-prasad-g",
-  },
-  {
-    name: "Supriyo Sarkar",
-    position: "Full Stack Developer",
+    name: "Anandita Biswas",
+    position: "HR Manager",
     id: 10,
-    photo: Supriyo,
-    twitter: "",
-    linkedIn: "",
-  },
-  {
-    name: "Parth Parolekar",
-    position: "Frontend Developer",
-    id: 11,
-    photo: Parth,
-    twitter: "https://twitter.com/ParolekarParth",
-    linkedIn: "https://www.linkedin.com/in/parth-parolekar-b7439a195",
+    photo: Anandita,
+    twitter: "https://twitter.com/AnanditaBiswas9",
+    linkedIn: "https://www.linkedin.com/in/anandita-biswas-363156176",
   },
 ];
 

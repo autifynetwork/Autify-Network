@@ -1055,7 +1055,7 @@ class Info extends React.Component {
                 ></Image>
                 <h4 style={{ color: "white" }}>Automotive</h4>
               </div>
-              <div
+              {/* <div
                 className="col my-3 mx-auto offer_card"
                 style={{ placeContent: "center", placeItems: "center" }}
               >
@@ -1068,7 +1068,7 @@ class Info extends React.Component {
                   id="neu_img"
                 ></Image>
                 <h4 style={{ color: "white" }}>Pharma and Healthcare</h4>
-              </div>
+              </div> */}
             </div>
             <div className="hidden-xs col-md-1 col-xs-0 text-white my-auto hide_mob">
               <a
