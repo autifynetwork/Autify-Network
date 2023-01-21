@@ -142,6 +142,17 @@ function Nav() {
                   Lightpaper
                 </a>
               </li>
+              <li className="nav-item mx-4 my-3">
+                <a
+                  href="https://medium.com/@autifynetwork"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="button current"
+                  style={{ fontWeight: "500" }}
+                >
+                  Blog
+                </a>
+              </li>
               {/* <li className="nav-item my-2 mx-2  ">
                 <button className="button1" onClick={connectToWallet}>
                   {walletName}
