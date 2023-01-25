@@ -122,7 +122,7 @@ class Info extends React.Component {
                     <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="/contact"
+                        href="/ContactPage"
                         // data-target="#contact"
                       >
                         Contact Us
@@ -411,7 +411,7 @@ class Info extends React.Component {
                     </h6>
                     <div className="my-5 button_container">
                       <a
-                        href="/contact"
+                        href="/ContactPage"
                         // data-target="#contact"
                         className="button_info my-3"
                       >
@@ -466,7 +466,7 @@ class Info extends React.Component {
                     <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="/contact"
+                        href="/ContactPage"
                         // data-target="#contact"
                       >
                         Contact Us
@@ -760,7 +760,7 @@ class Info extends React.Component {
                     </h6>
                     <div className="my-5 button_container">
                       <a
-                        href="/contact"
+                        href="/ContactPage"
                         // data-target="#contact"
                         className="button_info my-3"
                       >
@@ -817,7 +817,7 @@ class Info extends React.Component {
                     <div className="my-5 button_container">
                       <a
                         className="button_info my-3"
-                        href="/contact"
+                        href="/ContactPage"
                         // data-target="#contact"
                       >
                         Contact Us
