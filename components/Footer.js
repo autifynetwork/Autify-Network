@@ -186,7 +186,7 @@ function Footer() {
             </a>
           </div>
           <div className="col" style={{ placeItems: "center" }}>
-            <a href="/contact" className="button11 current">
+            <a href="/ContactPage" className="button11 current">
               Contact Us
             </a>
           </div>
