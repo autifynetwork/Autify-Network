@@ -92,7 +92,9 @@ function Footer() {
             </div> */}
           </div>
         </div>
-        <div className="auty_token" style={{ color: "white" }}>
+
+        {/* Token Utility Section */}
+        {/* <div className="auty_token" style={{ color: "white" }}>
           <h1
             className="my-3 text-center"
             id="h22"
@@ -149,8 +151,7 @@ function Footer() {
               <h2 id="auty_title">Staking</h2>
               <p id="auty_description">
                 AUTY token holders can earn rewards by staking their tokens.
-                {/* AUTY token holders can stake AUTY tokens on DApp as well as
-                network. By doing so, the staker can earn AUTY tokens. */}
+                
               </p>
             </div>
             <div className="auty_item text-center col my-3 mx-auto">
@@ -167,7 +168,9 @@ function Footer() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {/* Token Utility Section End*/}
       </section>
       <div className="footer_m" id="footer_m">
         <a href=" ">
