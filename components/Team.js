@@ -13,9 +13,10 @@ import Deepak from "../public/assets/Team Pictures web/Team New/DeepakKomma.jpg"
 import Anandita from "../public/assets/Team Pictures web/Team New/AnanditaBiswas.jpg";
 import Pankaj from "../public/assets/Team Pictures web/Team New/PankajArya.jpg";
 import Parth from "../public/assets/Team Pictures web/Team New/ParthParolekar.jpg";
-import Shalini from "../public/assets/Team Pictures web/Team New/Shalini.jpg";
+import Anirudh from "../public/assets/Team Pictures web/Team New/AnirudhNarayan.jpg";
 import Supriyo from "../public/assets/Team Pictures web/Team New/Supriyo2.jpg";
 import Venkatesh from "../public/assets/Team Pictures web/Team New/Venkatesh.jpg";
+import Rakshita from "../public/assets/Team Pictures web/Team New/RakshitaKumar.jpg";
 
 import VijayPravin from "../public/assets/Advisors/Vijay Pravin.jpg";
 import AjeetKhurana from "../public/assets/Advisors/AjeetKhurana.jpg";
@@ -74,12 +75,12 @@ const teamDB = [
     linkedIn: "https://www.linkedin.com/in/parth-parolekar-b7439a195",
   },
   {
-    name: "Shalini Raja",
-    position: "Digital Marketing Manager",
+    name: "Anirudh Narayan",
+    position: "Growth Consultant",
     id: 7,
-    photo: Shalini,
-    twitter: "https://twitter.com/Shalini202203",
-    linkedIn: "https://www.linkedin.com/in/shalini-raja-625391a7",
+    photo: Anirudh,
+    twitter: "https://twitter.com/anistartup",
+    linkedIn: "https://www.linkedin.com/in/anirudh-narayan/",
   },
   {
     name: "Soumitra Sen",
@@ -91,9 +92,17 @@ const teamDB = [
       "https://www.linkedin.com/in/soumitra-sen-blockchain-content-writer-44a44b166/",
   },
   {
+    name: "Rakshita Kumar",
+    position: "PR Specialist",
+    id: 9,
+    photo: Rakshita,
+    twitter: "https://twitter.com/rakshitakumarrr",
+    linkedIn: "https://www.linkedin.com/in/rakshita-kumar-6799751ab/",
+  },
+  {
     name: "Shreejata Neogi",
     position: "Graphics & Video Manager",
-    id: 9,
+    id: 10,
     photo: Shreejata,
     twitter: "https://twitter.com/ShreejataNeogi",
     linkedIn: "https://www.linkedin.com/in/shreejata-neogi-0b37b1165/",
@@ -101,7 +110,7 @@ const teamDB = [
   {
     name: "Anandita Biswas",
     position: "HR Manager",
-    id: 10,
+    id: 11,
     photo: Anandita,
     twitter: "https://twitter.com/AnanditaBiswas9",
     linkedIn: "https://www.linkedin.com/in/anandita-biswas-363156176",
