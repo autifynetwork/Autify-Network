@@ -28,6 +28,10 @@ We are building a supply chain traceability platform to track the provenance of 
 
 We will keep a permanent and immutable record of transactions, which can help to prevent fraud, tampering, and errors in supply chain data. Supply chain participants can reduce the time and cost associated with tracking and verifying the authenticity of goods, and improve the efficiency of supply chain operations.
 
+
+![Autify Network Dashboard](https://autifynetwork.com/wp-content/uploads/2023/02/Dashboard_Overview-1.png)
+
+
 In addition to the supply chain management and traceability platform, we are also building several other innovative products:
 
 **Sustainability track and trace:** 
